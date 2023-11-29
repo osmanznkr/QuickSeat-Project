@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       Start Project
       Branch Created
+      Other Branc Created
     </div>
   );
 }
