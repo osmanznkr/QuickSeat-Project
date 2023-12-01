@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1000,
+        "eventName": "etkinlik adı",
+        "eventOwner": "varsa sanatçı,takım,",
+        "description": "açıklama",
+        "startDate": "2023-12-12 19:00",
+        "endDate": "2023-12-12 19:00",
+        "ticketType": {
+            "firstType": "Ön Koltuk: ",
+            "secondType": "Arka Koltuk: "
+        },
+        "prices": {
+            "firstPrice": 100,
+            "secondPrice": 200
+        },
+        "isPopular": false,
+        "images": [
+            "",
+            ""
+        ],
+        "address": {
+            "name": "mekan adı",
+            "city": "şehir",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "müzik,sanat,spor,sahne",
+            "type": {
+                "id": 1,
+                "name": "tiyatro,konser,futbol"
+            }
+        }
+    }
+]
