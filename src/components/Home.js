@@ -6,6 +6,8 @@ function Home() {
   return (
     <>
     <Slider></Slider>
+    <h2>Popüler Etkinlikler</h2>
+    <CardComponent></CardComponent>
     </>
   )
 }
