@@ -1,0 +1,23 @@
+/* Card styles */
+
+.custom-card {
+    transition: transform 0.2s;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}

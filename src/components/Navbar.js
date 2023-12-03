@@ -15,7 +15,7 @@ function NavbarComponent() {
       <Router>
         <Navbar bg="dark" variant='dark' expand="lg">
           <Container fluid>
-            <Navbar.Brand href="/"> Etkinlik Bul</Navbar.Brand>
+            <Navbar.Brand href="/"> QUICK SEAT </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
@@ -23,21 +23,52 @@ function NavbarComponent() {
                 style={{ maxHeight: '100px' }}
                 navbarScroll
               >
-                <Nav.Link as={Link} to={"/home"}>Anasayfa</Nav.Link>
-                <Nav.Link as={Link} to={"/events"}>Etkinlikler</Nav.Link>
-                <NavDropdown title="Link" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
-                  </NavDropdown.Item>
+                {/* <Nav.Link as={Link} to={"/home"}>Anasayfa</Nav.Link> */}
+                <Nav.Link as={Link} to={"/events"}>Tüm Etkinlikler</Nav.Link>
+                <NavDropdown title="Müzik" id="navbarScrollingDropdown">
+                  <NavDropdown.Item as={Link} to={"/events"}>Hepsi</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
+                  <NavDropdown.Item href="#action4">
+                    Konser
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action6">
+                    Festival
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#" disabled>
-                  Link
-                </Nav.Link>
+                <NavDropdown title="Sahne" id="navbarScrollingDropdown">
+                  <NavDropdown.Item href="#action3">Hepsi</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action4">
+                    Tiyatro
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action6">
+                    Stand Up
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Spor" id="navbarScrollingDropdown">
+                  <NavDropdown.Item href="#action3">Hepsi</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action4">
+                    Futbol
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action6">
+                    Basketbol
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action6">
+                    E Spor
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Sanat" id="navbarScrollingDropdown">
+                  <NavDropdown.Item href="#action3">Hepsi</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action4">
+                    Resim
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action6">
+                    Heykel
+                  </NavDropdown.Item>
+                </NavDropdown>
+                {/* <Nav.Link className='ml-auto' as={Link} to={"/events"}>Zamanı Geçmiş Etkinlikler</Nav.Link> */}
               </Nav>
               <Form style={{ minWidth: 350 }} className="d-flex">
                 <Form.Control
@@ -53,7 +84,7 @@ function NavbarComponent() {
         </Navbar>
         <div>
              <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Routes>
           <Routes>
             <Route path="/events" element={<Events />} />
