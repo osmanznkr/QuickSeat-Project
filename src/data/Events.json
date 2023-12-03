@@ -32,5 +32,1925 @@
                 "name": "tiyatro,konser,futbol"
             }
         }
+    },
+    {
+        "id": 1,
+        "eventName": "Tarkan Konseri",
+        "eventOwner": "Tarkan",
+        "description": "Türkiye'nin efsane pop ikonu Tarkan, unutulmaz şarkıları ve sahne performansıyla enerji dolu bir geceye davet ediyor. Siz de bu müzik yolculuğuna katılın!",
+        "startDate": "2023-11-11 19:00",
+        "endDate": "2023-11-11 22:00",
+        "ticketType": {
+            "firstType": "Tribün 2.Kategori: ",
+            "secondType": "Tribün 1.Kategori: ",
+            "thirdType": "Premium Tribün: ",
+            "fourhType": "Saha İçi: ",
+            "fifthType": "Sahne Önü: "
+        },
+        "prices": {
+            "firstPrice": 330,
+            "secondPrice": 440,
+            "thirdPrice": 550,
+            "fourthPrice": 660,
+            "fifthPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/tarkan-cover.png",
+            "./assets/images/tarkan-1.png",
+            "./assets/images/tarkan-2.png",
+            "./assets/images/tarkan-3.png"
+        ],
+        "address": {
+            "name": "Volkswagen Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "eventName": "Tarkan Konseri",
+        "eventOwner": "Tarkan",
+        "description": "Türkiye'nin efsane pop ikonu Tarkan, unutulmaz şarkıları ve sahne performansıyla enerji dolu bir geceye davet ediyor. Siz de bu müzik yolculuğuna katılın!",
+        "startDate": "2023-12-07 19:00",
+        "endDate": "2023-12-07 22:00",
+        "ticketType": {
+            "firstType": "Sahne Önü Ayakta: ",
+            "secondType": "Sahne Önü Oturmalı: ",
+            "thirdType": "Sahne Önü Vip: "
+        },
+        "prices": {
+            "firstPrice": 550,
+            "secondPrice": 660,
+            "thirdPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/tarkan-cover.png",
+            "./assets/images/tarkan-1.png",
+            "./assets/images/tarkan-2.png",
+            "./assets/images/tarkan-3.png"
+        ],
+        "address": {
+            "name": "Jolly Joker Ankara",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "eventName": "Tarkan Konseri",
+        "eventOwner": "Tarkan",
+        "description": "Türkiye'nin efsane pop ikonu Tarkan, unutulmaz şarkıları ve sahne performansıyla enerji dolu bir geceye davet ediyor. Siz de bu müzik yolculuğuna katılın!",
+        "startDate": "2023-12-21 19:00",
+        "endDate": "2023-12-21 22:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/tarkan-cover.png",
+            "./assets/images/tarkan-1.png",
+            "./assets/images/tarkan-2.png",
+            "./assets/images/tarkan-3.png"
+        ],
+        "address": {
+            "name": "İzmir Arena",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "eventName": "Tarkan Konseri",
+        "eventOwner": "Tarkan",
+        "description": "Türkiye'nin efsane pop ikonu Tarkan, unutulmaz şarkıları ve sahne performansıyla enerji dolu bir geceye davet ediyor. Siz de bu müzik yolculuğuna katılın!",
+        "startDate": "2024-02-04 19:00",
+        "endDate": "2024-02-04 22:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/tarkan-cover.png",
+            "./assets/images/tarkan-1.png",
+            "./assets/images/tarkan-2.png",
+            "./assets/images/tarkan-3.png"
+        ],
+        "address": {
+            "name": "EKM Erciyes Kültür Merkezi",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "eventName": "Sezen Aksu Konseri",
+        "eventOwner": "Sezen Aksu",
+        "description": "Türk müziğinin kraliçesi Sezen Aksu, dokunaklı sesi ve klasikleşmiş şarkılarıyla sizleri büyüleyici bir geceye davet ediyor. Unutulmaz anlar yaşamaya hazır olun.",
+        "startDate": "2023-12-16 20:00",
+        "endDate": "2023-12-16 23:00",
+        "ticketType": {
+            "firstType": "Tribün 2.Kategori: ",
+            "secondType": "Tribün 1.Kategori: ",
+            "thirdType": "Premium Tribün: ",
+            "fourhType": "Saha İçi: ",
+            "fifthType": "Sahne Önü: "
+        },
+        "prices": {
+            "firstPrice": 330,
+            "secondPrice": 440,
+            "thirdPrice": 550,
+            "fourthPrice": 660,
+            "fifthPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/sezen-aksu-cover.png",
+            "./assets/images/sezen-aksu-1.png"
+        ],
+        "address": {
+            "name": "Volkswagen Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "eventName": "Sezen Aksu Konseri",
+        "eventOwner": "Sezen Aksu",
+        "description": "Türk müziğinin kraliçesi Sezen Aksu, dokunaklı sesi ve klasikleşmiş şarkılarıyla sizleri büyüleyici bir geceye davet ediyor. Unutulmaz anlar yaşamaya hazır olun.",
+        "startDate": "2024-03-23 20:00",
+        "endDate": "2024-03-23 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/sezen-aksu-cover.png",
+            "./assets/images/sezen-aksu-1.png"
+        ],
+        "address": {
+            "name": "İzmir Arena",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "eventName": "Kenan Doğulu Konseri",
+        "eventOwner": "Kenan Doğulu",
+        "description": "Pop müziğin usta ismi Kenan Doğulu, sıcak sesi ve romantik şarkılarıyla dolu bir konserle sizleri büyüleyecek. Kaçırmayın!",
+        "startDate": "2024-04-02 20:00",
+        "endDate": "2024-04-02 23:00",
+        "ticketType": {
+            "firstType": "Tribün 2.Kategori: ",
+            "secondType": "Tribün 1.Kategori: ",
+            "thirdType": "Premium Tribün: ",
+            "fourhType": "Saha İçi: ",
+            "fifthType": "Sahne Önü: "
+        },
+        "prices": {
+            "firstPrice": 330,
+            "secondPrice": 440,
+            "thirdPrice": 550,
+            "fourthPrice": 660,
+            "fifthPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/kenan-doğulu-cover.png",
+            "./assets/images/kenan-doğulu-1.png"
+        ],
+        "address": {
+            "name": "Volkswagen Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 8,
+        "eventName": "Kenan Doğulu Konseri",
+        "eventOwner": "Kenan Doğulu",
+        "description": "Pop müziğin usta ismi Kenan Doğulu, sıcak sesi ve romantik şarkılarıyla dolu bir konserle sizleri büyüleyecek. Kaçırmayın!",
+        "startDate": "2024-06-22 20:00",
+        "endDate": "2024-06-22 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/kenan-doğulu-cover.png",
+            "./assets/images/kenan-doğulu-1.png"
+        ],
+        "address": {
+            "name": "İzmir Arena",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 9,
+        "eventName": "Kenan Doğulu Konseri",
+        "eventOwner": "Kenan Doğulu",
+        "description": "Pop müziğin usta ismi Kenan Doğulu, sıcak sesi ve romantik şarkılarıyla dolu bir konserle sizleri büyüleyecek. Kaçırmayın!",
+        "startDate": "2024-07-15 20:00",
+        "endDate": "2024-07-15 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/kenan-doğulu-cover.png",
+            "./assets/images/kenan-doğulu-1.png"
+        ],
+        "address": {
+            "name": "EKM Erciyes Kültür Merkezi",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 10,
+        "eventName": "Ajda Pekkan Konseri",
+        "eventOwner": "Ajda Pekkan",
+        "description": "Türkiye'nin süperstarı Ajda Pekkan, sahne enerjisi ve unutulmaz hitleriyle muhteşem bir geceye imza atacak. Bu efsanevi konseri kaçırmayın!",
+        "startDate": "2023-10-12 20:00",
+        "endDate": "2023-10-12 23:00",
+        "ticketType": {
+            "firstType": "Sahne Önü Ayakta: ",
+            "secondType": "Sahne Önü Oturmalı: ",
+            "thirdType": "Sahne Önü Vip: "
+        },
+        "prices": {
+            "firstPrice": 550,
+            "secondPrice": 660,
+            "thirdPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ajda-pekkan-cover.png",
+            "./assets/images/ajda-pekkan-1.png"
+        ],
+        "address": {
+            "name": "Jolly Joker Ankara",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 11,
+        "eventName": "Ajda Pekkan Konseri",
+        "eventOwner": "Ajda Pekkan",
+        "description": "Türkiye'nin süperstarı Ajda Pekkan, sahne enerjisi ve unutulmaz hitleriyle muhteşem bir geceye imza atacak. Bu efsanevi konseri kaçırmayın!",
+        "startDate": "2023-12-19 20:00",
+        "endDate": "2023-12-19 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ajda-pekkan-cover.png",
+            "./assets/images/ajda-pekkan-1.png"
+        ],
+        "address": {
+            "name": "EKM Erciyes Kültür Merkezi",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 12,
+        "eventName": "Ajda Pekkan Konseri",
+        "eventOwner": "Ajda Pekkan",
+        "description": "Türkiye'nin süperstarı Ajda Pekkan, sahne enerjisi ve unutulmaz hitleriyle muhteşem bir geceye imza atacak. Bu efsanevi konseri kaçırmayın!",
+        "startDate": "2024-03-11 20:00",
+        "endDate": "2024-03-11 23:00",
+        "ticketType": {
+            "firstType": "Tribün 2.Kategori: ",
+            "secondType": "Tribün 1.Kategori: ",
+            "thirdType": "Premium Tribün: ",
+            "fourhType": "Saha İçi: ",
+            "fifthType": "Sahne Önü: "
+        },
+        "prices": {
+            "firstPrice": 330,
+            "secondPrice": 440,
+            "thirdPrice": 550,
+            "fourthPrice": 660,
+            "fifthPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ajda-pekkan-cover.png",
+            "./assets/images/ajda-pekkan-1.png"
+        ],
+        "address": {
+            "name": "Volkswagen Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 13,
+        "eventName": "Teoman Konseri",
+        "eventOwner": "Teoman",
+        "description": "Teoman'ın duygusal şarkıları ve güçlü performansıyla dolu bir konserle heyecan verici anlara tanıklık edin. Siz de bu müzik yolculuğuna katılın!",
+        "startDate": "2024-01-05 20:00",
+        "endDate": "2024-01-05 23:00",
+        "ticketType": {
+            "firstType": "Tribün 2.Kategori: ",
+            "secondType": "Tribün 1.Kategori: ",
+            "thirdType": "Premium Tribün: ",
+            "fourhType": "Saha İçi: ",
+            "fifthType": "Sahne Önü: "
+        },
+        "prices": {
+            "firstPrice": 330,
+            "secondPrice": 440,
+            "thirdPrice": 550,
+            "fourthPrice": 660,
+            "fifthPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/teoman-cover.png",
+            "./assets/images/teoman-1.png"
+        ],
+        "address": {
+            "name": "Volkswagen Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 14,
+        "eventName": "Teoman Konseri",
+        "eventOwner": "Teoman",
+        "description": "Teoman'ın duygusal şarkıları ve güçlü performansıyla dolu bir konserle heyecan verici anlara tanıklık edin. Siz de bu müzik yolculuğuna katılın!",
+        "startDate": "2024-03-15 20:00",
+        "endDate": "2024-03-15 23:00",
+        "ticketType": {
+            "firstType": "Sahne Önü Ayakta: ",
+            "secondType": "Sahne Önü Oturmalı: ",
+            "thirdType": "Sahne Önü Vip: "
+        },
+        "prices": {
+            "firstPrice": 550,
+            "secondPrice": 660,
+            "thirdPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/teoman-cover.png",
+            "./assets/images/teoman-1.png"
+        ],
+        "address": {
+            "name": "Jolly Joker Ankara",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 15,
+        "eventName": "Hande Yener Konseri",
+        "eventOwner": "Hande Yener",
+        "description": "Popun kraliçesi Hande Yener, enerjik sahne performansı ve hit şarkılarıyla unutulmaz bir konser deneyimi sunuyor. Siz de bu muhteşem geceye davetlisiniz!",
+        "startDate": "2024-03-15 20:00",
+        "endDate": "2024-03-15 23:00",
+        "ticketType": {
+            "firstType": "Tribün 2.Kategori: ",
+            "secondType": "Tribün 1.Kategori: ",
+            "thirdType": "Premium Tribün: ",
+            "fourhType": "Saha İçi: ",
+            "fifthType": "Sahne Önü: "
+        },
+        "prices": {
+            "firstPrice": 330,
+            "secondPrice": 440,
+            "thirdPrice": 550,
+            "fourthPrice": 660,
+            "fifthPrice": 935
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/hande-yener-cover.png",
+            "./assets/images/hande-yener-1.png"
+        ],
+        "address": {
+            "name": "Volkswagen Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 16,
+        "eventName": "Murat Boz Konseri",
+        "eventOwner": "Murat Boz",
+        "description": "Pop müziğin genç ve yetenekli ismi Murat Boz, enerjisi ve hit şarkılarıyla dolu bir konserle hayranlarıyla buluşuyor. Kaçırmayın!",
+        "startDate": "2024-01-16 20:00",
+        "endDate": "2024-01-16 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/murat-boz-cover.png",
+            "./assets/images/murat-boz-1.png"
+        ],
+        "address": {
+            "name": "İzmir Arena",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 17,
+        "eventName": "Ceza Konseri",
+        "eventOwner": "Ceza",
+        "description": "Ceza'nın sürükleyici rap performansı ve güçlü sözleri, sizi etkileyici bir konser deneyimine davet ediyor. Kaçırmayın!",
+        "startDate": "2024-04-02 20:00",
+        "endDate": "2024-04-02 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ceza-cover.png",
+            "./assets/images/ceza-1.png"
+        ],
+        "address": {
+            "name": "EKM Erciyes Kültür Merkezi",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 18,
+        "eventName": "Ceza Konseri",
+        "eventOwner": "Ceza",
+        "description": "Ceza'nın sürükleyici rap performansı ve güçlü sözleri, sizi etkileyici bir konser deneyimine davet ediyor. Kaçırmayın!",
+        "startDate": "2024-04-25 20:00",
+        "endDate": "2024-04-25 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 550
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ceza-cover.png",
+            "./assets/images/ceza-1.png"
+        ],
+        "address": {
+            "name": "GAÜN Mavera Ksm",
+            "city": "Gaziantep",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 1,
+                "name": "Konser"
+            }
+        }
+    },
+    {
+        "id": 19,
+        "eventName": "İstanbul Jazz Festivali",
+        "eventOwner": "",
+        "description": "Her yıl düzenlenen festivalde, Türk ve uluslararası birçok caz sanatçısı sahne almıştır. Her yıl farklı bir program sunulur.",
+        "startDate": "2024-07-06 14:00",
+        "endDate": "2024-07-08 21:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 7500
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/istanbul-jazz-festivali-cover.png",
+            "./assets/images/istanbul-jazz-festivali-1.png",
+            "./assets/images/istanbul-jazz-festivali-2.png"
+        ],
+        "address": {
+            "name": "The Marmara Esma Sultan Yalısı",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 2,
+                "name": "Festival"
+            }
+        }
+    },
+    {
+        "id": 20,
+        "eventName": "Zeytinli Rock Festivali",
+        "eventOwner": "",
+        "description": "Zeytinli'de rockın kalbi atıyor! Türk rock sahnesinin ve dünya çapındaki alternatif müziğin en iyi isimleriyle dolu bir hafta sonu.",
+        "startDate": "2024-04-06 18:00",
+        "endDate": "2024-04-09 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 1900
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/zeytinli-rock-festivali-cover.png",
+            "./assets/images/zeytinli-rock-festivali-1.png",
+            "./assets/images/zeytinli-rock-festivali-2.png"
+        ],
+        "address": {
+            "name": "Çanakkale Karnaval Park",
+            "city": "Çanakkale",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 2,
+                "name": "Festival"
+            }
+        }
+    },
+    {
+        "id": 21,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-07 20:30",
+        "endDate": "2023-12-07 23:00",
+        "ticketType": {
+            "firstType": "Sol: ",
+            "secondType": "Sağ: ",
+            "thirdType": "Orta: "
+        },
+        "prices": {
+            "firstPrice": 350,
+            "secondPrice": 350,
+            "thirdPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Sahne Dragos",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 22,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-08 20:30",
+        "endDate": "2023-12-08 23:00",
+        "ticketType": {
+            "firstType": "Sol: ",
+            "secondType": "Sağ: ",
+            "thirdType": "Orta: "
+        },
+        "prices": {
+            "firstPrice": 350,
+            "secondPrice": 350,
+            "thirdPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Sahne Dragos",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 23,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-22 20:30",
+        "endDate": "2023-12-22 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 24,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-23 20:30",
+        "endDate": "2023-12-23 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 25,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-24 20:30",
+        "endDate": "2023-12-24 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 26,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-01-13 20:30",
+        "endDate": "2024-01-13 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 27,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-01-19 20:30",
+        "endDate": "2024-01-19 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 28,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-01-21 20:30",
+        "endDate": "2024-01-21 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 29,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-01-25 20:30",
+        "endDate": "2024-01-25 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 30,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-01-26 20:30",
+        "endDate": "2024-01-26 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 31,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-13 20:30",
+        "endDate": "2023-12-13 23:00",
+        "ticketType": {
+            "firstType": "2.Kategori: ",
+            "secondType": "1.Kategori: "
+        },
+        "prices": {
+            "firstPrice": 350,
+            "secondPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Panora Sanat Merkezi",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 32,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2023-12-14 20:30",
+        "endDate": "2023-12-14 23:00",
+        "ticketType": {
+            "firstType": "2.Kategori: ",
+            "secondType": "1.Kategori: "
+        },
+        "prices": {
+            "firstPrice": 350,
+            "secondPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "Panora Sanat Merkezi",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 33,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-02-07 20:30",
+        "endDate": "2024-02-07 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "BAOB Sahne",
+            "city": "Bursa",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 34,
+        "eventName": "Doğu Ekspresinde Cinayet",
+        "eventOwner": "",
+        "description": "AGATHA CHRISTIE’NİN “DOĞU EKSPRESİNDE CİNAYET” ROMANI TÜRKİYE’DE İLK KEZ TİYATRO SAHNESİNDE! 1933 yılında Agatha Christie’nin İstanbul Pera Palas’ta kaleme aldığı, o yıldan günümüze kadar onlarca dile çevrilen, sinema filmi uyarlamaları yapılan kült eseri Doğu Ekspresinde Cinayet sizlerle buluşuyor Christie'nin dünyaca ünlü dedektifi Hercule Poirot, ete kemiğe Atilla Şendil'in oyunculuğuyla bürünüyor. İstanbul’dan yola çıkan Doğu Ekspresi'nde çok farklı karakterlerin yanı sıra dünyanın en ünlü dedektifi Hercule Poirot da vardır. Daha ilk gece trende vahşi bir cinayet işlenir. Ama bunu yapabilecek herkesin tanığı vardır. Üstelik cinayetin işlendiği kompartıman gereğinden fazla kanıtla doludur. Poirot hayatında ilk defa sıkıntılı anlar yaşamaktadır. Maktulü kim ya da kimler neden öldürmüştür? Sıradan bir yolcu grubu gibi görünen kişiler aslında bir şeyler mi saklamaktadır? Tren bir dağ başında kara saplanıp mahsur kalınca Poirot polis gelmeden katil ya da katilleri bulmak için zamanla yarışmaya başlar.",
+        "startDate": "2024-02-08 20:30",
+        "endDate": "2024-02-08 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 350
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
+            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+        ],
+        "address": {
+            "name": "BAOB Sahne",
+            "city": "Bursa",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 35,
+        "eventName": "Amadeus",
+        "eventOwner": "",
+        "description": "Peter Shaffer tarafından kaleme alınan, dünya müzik tarihinin unutulmaz bestecileri Wolfgang Amadeus Mozart ile Antonio Salieri’nin eşsiz hikayesi AMADEUS 5. Sezonu ile sahnede! Usta yönetmen Işıl Kasapoğlu rejisiyle Çolpan İlhan-Sadri Alışık Tiyatrosu ve Piu Entertaiment ortak yapımı ile tiyatroseverlerle buluşmak için hazırlanıyor! Başrollerini Selçuk Yöntem (Antonio Salieri) ve Tansu Biçer (Wolfgang Amadeus Mozart)’in paylaştığı, 70 kişilik dev ekibiyle sezonun en çok ses getiren prodüksiyonlarından birisi olan Amadeus, 4 sezondur tüm temsillerini kapalı gişe oynayarak 260.000 seyirciye ulaştı!",
+        "startDate": "2023-12-10 19:30",
+        "endDate": "2023-12-10 22:00",
+        "ticketType": {
+            "firstType": "2.Balkon: ",
+            "secondType": "1.Balkon: "
+        },
+        "prices": {
+            "firstPrice": 575,
+            "secondPrice": 645
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/amadeus-cover.png",
+            "./assets/images/amadeus-1.png"
+        ],
+        "address": {
+            "name": "Zorlu PSM - Turkcell Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 36,
+        "eventName": "Amadeus",
+        "eventOwner": "",
+        "description": "Peter Shaffer tarafından kaleme alınan, dünya müzik tarihinin unutulmaz bestecileri Wolfgang Amadeus Mozart ile Antonio Salieri’nin eşsiz hikayesi AMADEUS 5. Sezonu ile sahnede! Usta yönetmen Işıl Kasapoğlu rejisiyle Çolpan İlhan-Sadri Alışık Tiyatrosu ve Piu Entertaiment ortak yapımı ile tiyatroseverlerle buluşmak için hazırlanıyor! Başrollerini Selçuk Yöntem (Antonio Salieri) ve Tansu Biçer (Wolfgang Amadeus Mozart)’in paylaştığı, 70 kişilik dev ekibiyle sezonun en çok ses getiren prodüksiyonlarından birisi olan Amadeus, 4 sezondur tüm temsillerini kapalı gişe oynayarak 260.000 seyirciye ulaştı!",
+        "startDate": "2023-12-11 19:30",
+        "endDate": "2023-12-11 22:00",
+        "ticketType": {
+            "firstType": "2.Balkon: ",
+            "secondType": "1.Balkon: "
+        },
+        "prices": {
+            "firstPrice": 575,
+            "secondPrice": 645
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/amadeus-cover.png",
+            "./assets/images/amadeus-1.png"
+        ],
+        "address": {
+            "name": "Zorlu PSM - Turkcell Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 37,
+        "eventName": "Amadeus",
+        "eventOwner": "",
+        "description": "Peter Shaffer tarafından kaleme alınan, dünya müzik tarihinin unutulmaz bestecileri Wolfgang Amadeus Mozart ile Antonio Salieri’nin eşsiz hikayesi AMADEUS 5. Sezonu ile sahnede! Usta yönetmen Işıl Kasapoğlu rejisiyle Çolpan İlhan-Sadri Alışık Tiyatrosu ve Piu Entertaiment ortak yapımı ile tiyatroseverlerle buluşmak için hazırlanıyor! Başrollerini Selçuk Yöntem (Antonio Salieri) ve Tansu Biçer (Wolfgang Amadeus Mozart)’in paylaştığı, 70 kişilik dev ekibiyle sezonun en çok ses getiren prodüksiyonlarından birisi olan Amadeus, 4 sezondur tüm temsillerini kapalı gişe oynayarak 260.000 seyirciye ulaştı!",
+        "startDate": "2023-12-17 19:30",
+        "endDate": "2023-12-17 22:00",
+        "ticketType": {
+            "firstType": "2.Balkon: ",
+            "secondType": "1.Balkon: "
+        },
+        "prices": {
+            "firstPrice": 575,
+            "secondPrice": 645
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/amadeus-cover.png",
+            "./assets/images/amadeus-1.png"
+        ],
+        "address": {
+            "name": "AKM Türk Telekom Opera Salonu",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 38,
+        "eventName": "Süt Kardeşler",
+        "eventOwner": "",
+        "description": "İlk olarak Türk Tiyatrosunun ustalarından Nejat Uygur tarafından sahnelenmiş olan, Süheyl ve Behzat Uygur Tiyatrosu tarafından günümüz yorumuyla sahnelenecek olan “Süt Kardeşler” isimli “müzikli oyunumuz” seyircisi ile buluşacak. Kostümleriyle, dekoruyla sizi 1950’li yıllara götürecek. Danslarıyla size keyifli dakikalar yaşatacak. Kahkahanın eksik olmayacağı, 7’den 70’e herkesi güldürecek, aynı zamanda sinirini bozacak, “asabi-komedi” diye nitelendirdiğimiz oyunumuza gelin, hep birlikte gülelim!",
+        "startDate": "2023-12-20 20:30",
+        "endDate": "2023-12-20 23:00",
+        "ticketType": {
+            "firstType": "Öğrenci: ",
+            "secondType": "Tam: "
+        },
+        "prices": {
+            "firstPrice": 344,
+            "secondPrice": 444
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/süt-kardeşler-cover.png",
+            "./assets/images/süt-kardeşler-1.png"
+        ],
+        "address": {
+            "name": "Beylikdüzü Atatürk Kültür ve Sanat Merkezi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 39,
+        "eventName": "Şifa Niyetine",
+        "eventOwner": "",
+        "description": "Orkestranın (piyano, kontrbas, gitar, çello, perküsyon) müziklerle eşlik ettiği ŞİFA NİYETİNE gösterisinde; Altan Erkekli, hayatı ile ilgili önemli kesitleri, Veysel Diker’de, Anadolu türkülerinin batı alt yapılı aranje edilmiş halini seyirciye sunmaktalar. Sözün ve müziğin iç içe olduğu süreç, seyircide bazen hüzün bazen gülmeye dönük duygusal etkiler bırakmaktadır. Altan Erkekli'nin kendi hayatından paylaştığı kesitler, içerik olarak yakın Türkiye özel tiyatro tarihine ve cumhuriyetin sanatla olan ilişkisine seyirciyi tanık tutar. Veysel Diker’in seslendirdiği türküler, kentleşme sonucu kendine yabancılaşma sorunu yaşayan hedef kitleye öze dönüşü amaçlar.",
+        "startDate": "2023-12-04 20:30",
+        "endDate": "2023-12-04 23:00",
+        "ticketType": {
+            "firstType": "2.Kategori: ",
+            "secondType": "1.Kategori: "
+        },
+        "prices": {
+            "firstPrice": 300,
+            "secondPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/şifa-niyetine-cover.png",
+            "./assets/images/şifa-niyetine-1.png"
+        ],
+        "address": {
+            "name": "Narlıdere AKM",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 40,
+        "eventName": "Şifa Niyetine",
+        "eventOwner": "",
+        "description": "Orkestranın (piyano, kontrbas, gitar, çello, perküsyon) müziklerle eşlik ettiği ŞİFA NİYETİNE gösterisinde; Altan Erkekli, hayatı ile ilgili önemli kesitleri, Veysel Diker’de, Anadolu türkülerinin batı alt yapılı aranje edilmiş halini seyirciye sunmaktalar. Sözün ve müziğin iç içe olduğu süreç, seyircide bazen hüzün bazen gülmeye dönük duygusal etkiler bırakmaktadır. Altan Erkekli'nin kendi hayatından paylaştığı kesitler, içerik olarak yakın Türkiye özel tiyatro tarihine ve cumhuriyetin sanatla olan ilişkisine seyirciyi tanık tutar. Veysel Diker’in seslendirdiği türküler, kentleşme sonucu kendine yabancılaşma sorunu yaşayan hedef kitleye öze dönüşü amaçlar.",
+        "startDate": "2023-12-06 20:30",
+        "endDate": "2023-12-06 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 270
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/şifa-niyetine-cover.png",
+            "./assets/images/şifa-niyetine-1.png"
+        ],
+        "address": {
+            "name": "Türkan Şoray Kültür Merkezi",
+            "city": "Antalya",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 41,
+        "eventName": "Şifa Niyetine",
+        "eventOwner": "",
+        "description": "Orkestranın (piyano, kontrbas, gitar, çello, perküsyon) müziklerle eşlik ettiği ŞİFA NİYETİNE gösterisinde; Altan Erkekli, hayatı ile ilgili önemli kesitleri, Veysel Diker’de, Anadolu türkülerinin batı alt yapılı aranje edilmiş halini seyirciye sunmaktalar. Sözün ve müziğin iç içe olduğu süreç, seyircide bazen hüzün bazen gülmeye dönük duygusal etkiler bırakmaktadır. Altan Erkekli'nin kendi hayatından paylaştığı kesitler, içerik olarak yakın Türkiye özel tiyatro tarihine ve cumhuriyetin sanatla olan ilişkisine seyirciyi tanık tutar. Veysel Diker’in seslendirdiği türküler, kentleşme sonucu kendine yabancılaşma sorunu yaşayan hedef kitleye öze dönüşü amaçlar.",
+        "startDate": "2023-12-07 20:30",
+        "endDate": "2023-12-07 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 270
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/şifa-niyetine-cover.png",
+            "./assets/images/şifa-niyetine-1.png"
+        ],
+        "address": {
+            "name": "Yenimahalle Bld.4 Mevsim Tiyatro Salonu",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 42,
+        "eventName": "Şifa Niyetine",
+        "eventOwner": "",
+        "description": "Orkestranın (piyano, kontrbas, gitar, çello, perküsyon) müziklerle eşlik ettiği ŞİFA NİYETİNE gösterisinde; Altan Erkekli, hayatı ile ilgili önemli kesitleri, Veysel Diker’de, Anadolu türkülerinin batı alt yapılı aranje edilmiş halini seyirciye sunmaktalar. Sözün ve müziğin iç içe olduğu süreç, seyircide bazen hüzün bazen gülmeye dönük duygusal etkiler bırakmaktadır. Altan Erkekli'nin kendi hayatından paylaştığı kesitler, içerik olarak yakın Türkiye özel tiyatro tarihine ve cumhuriyetin sanatla olan ilişkisine seyirciyi tanık tutar. Veysel Diker’in seslendirdiği türküler, kentleşme sonucu kendine yabancılaşma sorunu yaşayan hedef kitleye öze dönüşü amaçlar.",
+        "startDate": "2024-01-20 20:30",
+        "endDate": "2024-01-20 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/şifa-niyetine-cover.png",
+            "./assets/images/şifa-niyetine-1.png"
+        ],
+        "address": {
+            "name": "Çanakkale Belediyesi Kültür Merkezi",
+            "city": "Çanakkale",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 3,
+                "name": "Tiyatro"
+            }
+        }
+    },
+    {
+        "id": 43,
+        "eventName": "İlker Gümüşoluk - Tek Kişilik Gösteri",
+        "eventOwner": "İlker Gümüşoluk",
+        "description": "İlker Gümüşoluk, tek kişilik gösterisiyle izleyicisiyle buluşmaya devam ediyor. 15 Yıldır Türkiye’nin her köşesinde 1000’den fazla gösteri yapan İlker Gümüşoluk, tek kişilik gösterisinde ikili ilişkiler başta olmak üzere, hayata dair birçok hikaye ve tespitini seyircisiyle buluşturuyor. Komedyen, özellikle YouTube kanalında yayınladığı Apartman Sohbetleri projesiyle ve instagram hesabında paylaştığı skeçlerle ciddi bir seyirci kitlesine ulaştı. İlker Gümüşoluk aynı zamanda son iki yıldır YouTube Değişim Elçiliği görevini üstlendi. YouTube için özel projeler üretiyor.",
+        "startDate": "2023-12-13 20:30",
+        "endDate": "2023-12-13 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ilker-gümüşoluk-cover.png",
+            "./assets/images/ilker-gümüşoluk-1.png"
+        ],
+        "address": {
+            "name": "Watergarden Performans Merkezi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 44,
+        "eventName": "İlker Gümüşoluk - Tek Kişilik Gösteri",
+        "eventOwner": "İlker Gümüşoluk",
+        "description": "İlker Gümüşoluk, tek kişilik gösterisiyle izleyicisiyle buluşmaya devam ediyor. 15 Yıldır Türkiye’nin her köşesinde 1000’den fazla gösteri yapan İlker Gümüşoluk, tek kişilik gösterisinde ikili ilişkiler başta olmak üzere, hayata dair birçok hikaye ve tespitini seyircisiyle buluşturuyor. Komedyen, özellikle YouTube kanalında yayınladığı Apartman Sohbetleri projesiyle ve instagram hesabında paylaştığı skeçlerle ciddi bir seyirci kitlesine ulaştı. İlker Gümüşoluk aynı zamanda son iki yıldır YouTube Değişim Elçiliği görevini üstlendi. YouTube için özel projeler üretiyor.",
+        "startDate": "2023-12-20 20:30",
+        "endDate": "2023-12-20 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ilker-gümüşoluk-cover.png",
+            "./assets/images/ilker-gümüşoluk-1.png"
+        ],
+        "address": {
+            "name": "Yenimahalle Bld.4 Mevsim Tiyatro Salonu",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 45,
+        "eventName": "İlker Gümüşoluk - Tek Kişilik Gösteri",
+        "eventOwner": "İlker Gümüşoluk",
+        "description": "İlker Gümüşoluk, tek kişilik gösterisiyle izleyicisiyle buluşmaya devam ediyor. 15 Yıldır Türkiye’nin her köşesinde 1000’den fazla gösteri yapan İlker Gümüşoluk, tek kişilik gösterisinde ikili ilişkiler başta olmak üzere, hayata dair birçok hikaye ve tespitini seyircisiyle buluşturuyor. Komedyen, özellikle YouTube kanalında yayınladığı Apartman Sohbetleri projesiyle ve instagram hesabında paylaştığı skeçlerle ciddi bir seyirci kitlesine ulaştı. İlker Gümüşoluk aynı zamanda son iki yıldır YouTube Değişim Elçiliği görevini üstlendi. YouTube için özel projeler üretiyor.",
+        "startDate": "2023-12-10 20:30",
+        "endDate": "2023-12-10 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ilker-gümüşoluk-cover.png",
+            "./assets/images/ilker-gümüşoluk-1.png"
+        ],
+        "address": {
+            "name": "Aydın Kültür Merkezi",
+            "city": "Aydın",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 46,
+        "eventName": "İlker Gümüşoluk - Tek Kişilik Gösteri",
+        "eventOwner": "İlker Gümüşoluk",
+        "description": "İlker Gümüşoluk, tek kişilik gösterisiyle izleyicisiyle buluşmaya devam ediyor. 15 Yıldır Türkiye’nin her köşesinde 1000’den fazla gösteri yapan İlker Gümüşoluk, tek kişilik gösterisinde ikili ilişkiler başta olmak üzere, hayata dair birçok hikaye ve tespitini seyircisiyle buluşturuyor. Komedyen, özellikle YouTube kanalında yayınladığı Apartman Sohbetleri projesiyle ve instagram hesabında paylaştığı skeçlerle ciddi bir seyirci kitlesine ulaştı. İlker Gümüşoluk aynı zamanda son iki yıldır YouTube Değişim Elçiliği görevini üstlendi. YouTube için özel projeler üretiyor.",
+        "startDate": "2023-12-11 20:30",
+        "endDate": "2023-12-11 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/ilker-gümüşoluk-cover.png",
+            "./assets/images/ilker-gümüşoluk-1.png"
+        ],
+        "address": {
+            "name": "Nazım Hikmet Kültür Merkezi",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 47,
+        "eventName": "Gökhan Ünver Stand Up",
+        "eventOwner": "Gökhan Ünver",
+        "description": "Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "startDate": "2023-12-12 20:30",
+        "endDate": "2023-12-12 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/gökhan-ünver-cover.png",
+            "./assets/images/gökhan-ünver-1.png"
+        ],
+        "address": {
+            "name": "Caddebostan Kültür Merkezi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 48,
+        "eventName": "Gökhan Ünver Stand Up",
+        "eventOwner": "Gökhan Ünver",
+        "description": "Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "startDate": "2023-12-27 20:30",
+        "endDate": "2023-12-27 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/gökhan-ünver-cover.png",
+            "./assets/images/gökhan-ünver-1.png"
+        ],
+        "address": {
+            "name": "Watergarden Performans Merkezi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 49,
+        "eventName": "Gökhan Ünver Stand Up",
+        "eventOwner": "Gökhan Ünver",
+        "description": "Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "startDate": "2023-12-20 20:30",
+        "endDate": "2023-12-20 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/gökhan-ünver-cover.png",
+            "./assets/images/gökhan-ünver-1.png"
+        ],
+        "address": {
+            "name": "Meb Şura Salonu",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 50,
+        "eventName": "Gökhan Ünver Stand Up",
+        "eventOwner": "Gökhan Ünver",
+        "description": "Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "startDate": "2023-12-21 20:30",
+        "endDate": "2023-12-21 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/gökhan-ünver-cover.png",
+            "./assets/images/gökhan-ünver-1.png"
+        ],
+        "address": {
+            "name": "Meb Şura Salonu",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 51,
+        "eventName": "Gökhan Ünver Stand Up",
+        "eventOwner": "Gökhan Ünver",
+        "description": "Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "startDate": "2023-12-23 20:30",
+        "endDate": "2023-12-23 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/gökhan-ünver-cover.png",
+            "./assets/images/gökhan-ünver-1.png"
+        ],
+        "address": {
+            "name": "İstinyeArt %100 Performans Arena",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 52,
+        "eventName": "Gökhan Ünver Stand Up",
+        "eventOwner": "Gökhan Ünver",
+        "description": "Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "startDate": "2023-12-24 20:30",
+        "endDate": "2023-12-24 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/gökhan-ünver-cover.png",
+            "./assets/images/gökhan-ünver-1.png"
+        ],
+        "address": {
+            "name": "İstinyeArt %100 Performans Arena",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 53,
+        "eventName": "Sefa Doğanay Show",
+        "eventOwner": "Sefa Doğanay",
+        "description": "Sefa Doğanay Türkiye turnesine başlıyor! Yıllardır biriktirdiği hikayeleri sandıktan çıkarıp hayranlarıyla gösterilerinde paylaşan sevilen komedyen Doğanay, kapalı gişe oynadığı final oyunlarında da yoğun ilgi ile karşılaştı. Bir yıldır süren “Naftalin” adlı stand up gösterileri Türkiye, Avrupa ve Amerika’da büyük ilgi gören, 2011 yılında Yetenek Sizsiniz’de yeteneğini gösteren ünlü komedyen, taklitleri ve komik hikayelerinden oluşan gösterileri ile hayran kitlesini her geçen gün büyütüyor. Yeni sezonda ise Kokpit isimli yeni oyunuyla sevenleriyle buluşmaya hazırlanıyor!",
+        "startDate": "2024-01-19 20:30",
+        "endDate": "2024-01-19 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/sefa-doğanay-cover.png",
+            "./assets/images/sefa-doğanay-1.png"
+        ],
+        "address": {
+            "name": "Watergarden Performans Merkezi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 54,
+        "eventName": "Sefa Doğanay Show",
+        "eventOwner": "Sefa Doğanay",
+        "description": "Sefa Doğanay Türkiye turnesine başlıyor! Yıllardır biriktirdiği hikayeleri sandıktan çıkarıp hayranlarıyla gösterilerinde paylaşan sevilen komedyen Doğanay, kapalı gişe oynadığı final oyunlarında da yoğun ilgi ile karşılaştı. Bir yıldır süren “Naftalin” adlı stand up gösterileri Türkiye, Avrupa ve Amerika’da büyük ilgi gören, 2011 yılında Yetenek Sizsiniz’de yeteneğini gösteren ünlü komedyen, taklitleri ve komik hikayelerinden oluşan gösterileri ile hayran kitlesini her geçen gün büyütüyor. Yeni sezonda ise Kokpit isimli yeni oyunuyla sevenleriyle buluşmaya hazırlanıyor!",
+        "startDate": "2024-01-21 20:30",
+        "endDate": "2024-01-21 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/sefa-doğanay-cover.png",
+            "./assets/images/sefa-doğanay-1.png"
+        ],
+        "address": {
+            "name": "Meb Şura Salonu",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 55,
+        "eventName": "Sefa Doğanay Show",
+        "eventOwner": "Sefa Doğanay",
+        "description": "Sefa Doğanay Türkiye turnesine başlıyor! Yıllardır biriktirdiği hikayeleri sandıktan çıkarıp hayranlarıyla gösterilerinde paylaşan sevilen komedyen Doğanay, kapalı gişe oynadığı final oyunlarında da yoğun ilgi ile karşılaştı. Bir yıldır süren “Naftalin” adlı stand up gösterileri Türkiye, Avrupa ve Amerika’da büyük ilgi gören, 2011 yılında Yetenek Sizsiniz’de yeteneğini gösteren ünlü komedyen, taklitleri ve komik hikayelerinden oluşan gösterileri ile hayran kitlesini her geçen gün büyütüyor. Yeni sezonda ise Kokpit isimli yeni oyunuyla sevenleriyle buluşmaya hazırlanıyor!",
+        "startDate": "2023-12-10 20:30",
+        "endDate": "2023-12-10 23:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 400
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/sefa-doğanay-cover.png",
+            "./assets/images/sefa-doğanay-1.png"
+        ],
+        "address": {
+            "name": "Bostanlı Suat Taşer Salonu",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 2,
+            "name": "Sahne",
+            "type": {
+                "id": 4,
+                "name": "StandUp"
+            }
+        }
+    },
+    {
+        "id": 56,
+        "eventName": "Osman Hamdi Bey Resim Galerisi",
+        "eventOwner": "",
+        "description": "Osman Hamdi Bey'in eşsiz eserlerini bir araya getiren bu sergi, sanatseverlere Osmanlı dönemi ressamlığına derin bir bakış sunuyor. Galeri, ziyaretçilere tarihi ve kültürel bir yolculuk vaat ediyor.",
+        "startDate": "2024-03-11 13:30",
+        "endDate": "2024-03-15 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/osman-hamdi-bey-cover.png",
+            "./assets/images/osman-hamdi-bey-1.png"
+        ],
+        "address": {
+            "name": "Pera Müzesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 5,
+                "name": "Resim"
+            }
+        }
+    },
+    {
+        "id": 57,
+        "eventName": "Mükemmel Formlar Heykel Sergisi",
+        "eventOwner": "",
+        "description": "Istanbul Sanat Galerisi, 'Mükemmel Formlar' adlı muhteşem bir heykel sergisine ev sahipliği yapıyor. Türkiye'nin önde gelen heykeltıraşlarından olan Ahmet Demir'in başyapıtları, sanatseverleri çağdaş heykel sanatının büyüleyici dünyasına davet ediyor. Metal, taş, ahşap ve seramikten oluşturulmuş eserler, izleyicilere benzersiz bir deneyim sunacak.",
+        "startDate": "2024-01-06 14:00",
+        "endDate": "2024-02-06 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "./assets/images/mükemmel-formlar-heykel-sergisi-cover.png",
+            "./assets/images/mükemmel-formlar-heykel-sergisi-1.png"
+        ],
+        "address": {
+            "name": "Arter Sanat Galerisi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 6,
+                "name": "Heykel"
+            }
+        }
     }
 ]
