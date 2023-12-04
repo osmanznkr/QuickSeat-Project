@@ -8,16 +8,22 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import '../App.css';
 import { Button } from 'react-bootstrap';
+import eventData from '../data/Events.json';
 
-function CardComponent() {
+function CardComponent({filterType}) {
 
    const settings = {
       dots: true,
-      infinite: false,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      cssEase: "linear",
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 4,
       initialSlide: 0,
+      pauseOnHover: true,
+      // swipeToSlide: true,
       responsive: [
         {
           breakpoint: 1024,
@@ -48,278 +54,88 @@ function CardComponent() {
       ]
     };
 
+    let filteredEvents = eventData;
+
+   switch (filterType) {
+
+     case 'popular':
+       filteredEvents = eventData.filter(event => event.isPopular);
+       break;
+
+     case 'music':
+       filteredEvents = eventData.filter(event => event.category.name === 'Müzik');
+       break;
+    
+     case 'concert':
+       filteredEvents = eventData.filter(event => event.category.type.name === 'Konser');
+       break;
+
+     case 'festival':
+       filteredEvents = eventData.filter(event => event.category.type.name === 'Festival');
+       break;
+
+     case 'stage':
+       filteredEvents = eventData.filter(event => event.category.name === 'Sahne');
+       break;
+
+     case 'theater':
+       filteredEvents = eventData.filter(event => event.category.type.name === 'Tiyatro');
+       break; 
+
+     case 'standup':
+       filteredEvents = eventData.filter(event => event.category.type.name === 'StandUp');
+       break;
+
+      case 'art':
+       filteredEvents = eventData.filter(event => event.category.name === 'Sanat');
+       break; 
+
+     case 'painting':
+       filteredEvents = eventData.filter(event => event.category.type.name === 'Resim');
+       break;
+
+     case 'sculpture':
+       filteredEvents = eventData.filter(event => event.category.type.name === 'Heykel');
+       break; 
+
+     default:
+       filteredEvents = eventData;
+       break;
+}
+
   return <>
-  <Slider style={{margin: '20px 20px'}} {...settings}>
-    <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://esenler.bel.tr/wp-content/uploads/2021/08/144438347-1600775959586-gfhfghfgh.jpg'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-    </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
+  <div>
+    <Slider style={{ margin: '20px 20px' }} {...settings}>
+        {filteredEvents.map(event => (
+          <div className='cardSlick' key={event.id}>
+            <div className='card-top'>
+              <img src={`images/${event.images[1]}`} alt={event.eventName} />
+              <h2>{event.eventName}</h2>
+            </div>
+            <div className='card-bottom-buy'>
+              <h4>{event.prices.firstPrice}₺</h4>
+              <Button
+                size='sm'
+                variant='outline-success'
+                style={{ borderRadius: '20px' }}
+              >
+                Etkinlik Detayı
+              </Button>
+            </div>
+            <div className='card-bottom'>
+              <p>{event.startDate}</p>
+            </div>
+          </div>
+        ))}
+      </Slider>
   </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/300/400'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/400/500'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/700/800'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/700/800'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/300/400'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://picsum.photos/200/300'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://esenler.bel.tr/wp-content/uploads/2021/08/144438347-1600775959586-gfhfghfgh.jpg'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  <div className='cardSlick'>
-    <div className='card-top'>
-      <img src='https://esenler.bel.tr/wp-content/uploads/2021/08/144438347-1600775959586-gfhfghfgh.jpg'></img>
-      <h2>Tiyatro Oyunu</h2>
-    </div>
-    <div className='card-bottom-buy'>
-        <h4>599₺</h4>
-        <Button size='sm' variant='outline-success' style={{borderRadius: '20px'}} >Etkinlik Detayı</Button>
-      </div>
-    <div className='card-bottom'>
-      <p>5 Aralık 2023 Perşembe</p>
-    </div>
-  </div>
-  </Slider>
+        
+
   </>
 
-
-
-
-
-
-
-
-//'https://picsum.photos/200/300'
-
-//   return (
-//     <Card style={{ width: '18rem' }} className="custom-card">
-//       <div className="image-container">
-//         <Card.Img variant="top" src="https://esenler.bel.tr/wp-content/uploads/2021/08/144438347-1600775959586-gfhfghfgh.jpg" />
-//       </div>
-//       <Card.Body>
-//         <Card.Title>Manga Konseri</Card.Title>
-//         Açıklama
-//       </Card.Body>
-//       <ListGroup className="list-group-flush">
-//         <ListGroup.Item>Cras justo odio</ListGroup.Item>
-//         <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-//         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-//       </ListGroup>
-//       <Card.Body className="card-footer">
-//         <Card.Link href="#">Etkinlik Detayı</Card.Link>
-//         <Card.Link href="#">Bilet al</Card.Link>
-//       </Card.Body>
-//     </Card>
-//   );
 }
 
 export default CardComponent;
 
 
 
-// https://esenler.bel.tr/wp-content/uploads/2021/08/144438347-1600775959586-gfhfghfgh.jpg

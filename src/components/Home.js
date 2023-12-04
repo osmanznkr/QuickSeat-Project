@@ -7,7 +7,7 @@ function Home() {
     <>
     <Slider></Slider>
     <h2>Popüler Etkinlikler</h2>
-    <CardComponent></CardComponent>
+    <CardComponent filterType="popular"></CardComponent>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -10,6 +10,13 @@ import Home from './Home';
 import Events from './Events';
 
 function NavbarComponent() {
+
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
     <>
       <Router>
@@ -23,25 +30,26 @@ function NavbarComponent() {
                 style={{ maxHeight: '100px' }}
                 navbarScroll
               >
-                {/* <Nav.Link as={Link} to={"/home"}>Anasayfa</Nav.Link> */}
-                <Nav.Link as={Link} to={"/events"}>Tüm Etkinlikler</Nav.Link>
+                <Nav.Link as={Link} to="/events" onClick={() => handleCategorySelect()}>Tüm Etkinlikler</Nav.Link>
                 <NavDropdown title="Müzik" id="navbarScrollingDropdown">
-                  <NavDropdown.Item as={Link} to={"/events"}>Hepsi</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('music')}>
+                    Hepsi
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action4">
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('concert')}>
                     Konser
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action6">
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('festival')}>
                     Festival
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Sahne" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action3">Hepsi</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('stage')}>Hepsi</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action4">
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('theater')}>
                     Tiyatro
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action6">
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('standup')}>
                     Stand Up
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -59,12 +67,12 @@ function NavbarComponent() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Sanat" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action3">Hepsi</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('art')}>Hepsi</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action4">
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('painting')}>
                     Resim
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action6">
+                  <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('sculpture')}>
                     Heykel
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -87,7 +95,10 @@ function NavbarComponent() {
             <Route path="/" element={<Home />} />
           </Routes>
           <Routes>
-            <Route path="/events" element={<Events />} />
+            <Route
+          path="/events"
+          element={<Events selectedCategory={selectedCategory} />}
+        />
           </Routes>
         </div>
       </Router>
