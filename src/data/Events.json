@@ -1,39 +1,5 @@
 [
     {
-        "id": 1000,
-        "eventName": "etkinlik adı",
-        "eventOwner": "varsa sanatçı,takım,",
-        "description": "açıklama",
-        "startDate": "2023-12-12 19:00",
-        "endDate": "2023-12-12 19:00",
-        "ticketType": {
-            "firstType": "Ön Koltuk: ",
-            "secondType": "Arka Koltuk: "
-        },
-        "prices": {
-            "firstPrice": 100,
-            "secondPrice": 200
-        },
-        "isPopular": false,
-        "images": [
-            "",
-            ""
-        ],
-        "address": {
-            "name": "mekan adı",
-            "city": "şehir",
-            "location": "google"
-        },
-        "category": {
-            "id": 1,
-            "name": "müzik,sanat,spor,sahne",
-            "type": {
-                "id": 1,
-                "name": "tiyatro,konser,futbol"
-            }
-        }
-    },
-    {
         "id": 1,
         "eventName": "Tarkan Konseri",
         "eventOwner": "Tarkan",
@@ -56,10 +22,10 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/tarkan-cover.png",
-            "./assets/images/tarkan-1.png",
-            "./assets/images/tarkan-2.png",
-            "./assets/images/tarkan-3.png"
+            "tarkan-cover.png",
+            "tarkan-1.png",
+            "tarkan-2.png",
+            "tarkan-3.png"
         ],
         "address": {
             "name": "Volkswagen Arena",
@@ -94,10 +60,10 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/tarkan-cover.png",
-            "./assets/images/tarkan-1.png",
-            "./assets/images/tarkan-2.png",
-            "./assets/images/tarkan-3.png"
+            "tarkan-cover.png",
+            "tarkan-2.png",
+            "tarkan-1.png",
+            "tarkan-3.png"
         ],
         "address": {
             "name": "Jolly Joker Ankara",
@@ -126,12 +92,12 @@
         "prices": {
             "firstPrice": 550
         },
-        "isPopular": false,
+        "isPopular": true,
         "images": [
-            "./assets/images/tarkan-cover.png",
-            "./assets/images/tarkan-1.png",
-            "./assets/images/tarkan-2.png",
-            "./assets/images/tarkan-3.png"
+            "tarkan-cover.png",
+            "tarkan-3.png",
+            "tarkan-2.png",
+            "tarkan-1.png"
         ],
         "address": {
             "name": "İzmir Arena",
@@ -162,10 +128,10 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/tarkan-cover.png",
-            "./assets/images/tarkan-1.png",
-            "./assets/images/tarkan-2.png",
-            "./assets/images/tarkan-3.png"
+            "tarkan-cover.png",
+            "tarkan-1.png",
+            "tarkan-2.png",
+            "tarkan-3.png"
         ],
         "address": {
             "name": "EKM Erciyes Kültür Merkezi",
@@ -204,8 +170,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/sezen-aksu-cover.png",
-            "./assets/images/sezen-aksu-1.png"
+            "sezen-aksu-cover.png",
+            "sezen-aksu-1.png"
         ],
         "address": {
             "name": "Volkswagen Arena",
@@ -236,8 +202,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/sezen-aksu-cover.png",
-            "./assets/images/sezen-aksu-1.png"
+            "sezen-aksu-1.png",
+            "sezen-aksu-cover.png"
         ],
         "address": {
             "name": "İzmir Arena",
@@ -276,8 +242,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/kenan-doğulu-cover.png",
-            "./assets/images/kenan-doğulu-1.png"
+            "kenan-doğulu-cover.png",
+            "kenan-doğulu-1.png"
         ],
         "address": {
             "name": "Volkswagen Arena",
@@ -308,8 +274,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/kenan-doğulu-cover.png",
-            "./assets/images/kenan-doğulu-1.png"
+            "kenan-doğulu-1.png",
+            "kenan-doğulu-cover.png"
         ],
         "address": {
             "name": "İzmir Arena",
@@ -340,8 +306,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/kenan-doğulu-cover.png",
-            "./assets/images/kenan-doğulu-1.png"
+            "kenan-doğulu-cover.png",
+            "kenan-doğulu-1.png"
         ],
         "address": {
             "name": "EKM Erciyes Kültür Merkezi",
@@ -376,8 +342,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ajda-pekkan-cover.png",
-            "./assets/images/ajda-pekkan-1.png"
+            "ajda-pekkan-cover.png",
+            "ajda-pekkan-1.png"
         ],
         "address": {
             "name": "Jolly Joker Ankara",
@@ -408,8 +374,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ajda-pekkan-cover.png",
-            "./assets/images/ajda-pekkan-1.png"
+            "ajda-pekkan-1.png",
+            "ajda-pekkan-cover.png"
         ],
         "address": {
             "name": "EKM Erciyes Kültür Merkezi",
@@ -446,10 +412,10 @@
             "fourthPrice": 660,
             "fifthPrice": 935
         },
-        "isPopular": false,
+        "isPopular": true,
         "images": [
-            "./assets/images/ajda-pekkan-cover.png",
-            "./assets/images/ajda-pekkan-1.png"
+            "ajda-pekkan-cover.png",
+            "ajda-pekkan-1.png"
         ],
         "address": {
             "name": "Volkswagen Arena",
@@ -488,8 +454,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/teoman-cover.png",
-            "./assets/images/teoman-1.png"
+            "teoman-1.png",
+            "teoman-cover.png"
         ],
         "address": {
             "name": "Volkswagen Arena",
@@ -524,8 +490,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/teoman-cover.png",
-            "./assets/images/teoman-1.png"
+            "teoman-cover.png",
+            "teoman-1.png"
         ],
         "address": {
             "name": "Jolly Joker Ankara",
@@ -564,8 +530,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/hande-yener-cover.png",
-            "./assets/images/hande-yener-1.png"
+            "hande-yener-cover.png",
+            "hande-yener-1.png"
         ],
         "address": {
             "name": "Volkswagen Arena",
@@ -594,10 +560,10 @@
         "prices": {
             "firstPrice": 550
         },
-        "isPopular": false,
+        "isPopular": true,
         "images": [
-            "./assets/images/murat-boz-cover.png",
-            "./assets/images/murat-boz-1.png"
+            "murat-boz-cover.png",
+            "murat-boz-1.png"
         ],
         "address": {
             "name": "İzmir Arena",
@@ -628,8 +594,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ceza-cover.png",
-            "./assets/images/ceza-1.png"
+            "ceza-1.png",
+            "ceza-cover.png"
         ],
         "address": {
             "name": "EKM Erciyes Kültür Merkezi",
@@ -660,8 +626,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ceza-cover.png",
-            "./assets/images/ceza-1.png"
+            "ceza-cover.png",
+            "ceza-1.png"
         ],
         "address": {
             "name": "GAÜN Mavera Ksm",
@@ -692,9 +658,9 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/istanbul-jazz-festivali-cover.png",
-            "./assets/images/istanbul-jazz-festivali-1.png",
-            "./assets/images/istanbul-jazz-festivali-2.png"
+            "istanbul-jazz-festivali-cover.png",
+            "istanbul-jazz-festivali-1.png",
+            "istanbul-jazz-festivali-2.png"
         ],
         "address": {
             "name": "The Marmara Esma Sultan Yalısı",
@@ -725,9 +691,9 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/zeytinli-rock-festivali-cover.png",
-            "./assets/images/zeytinli-rock-festivali-1.png",
-            "./assets/images/zeytinli-rock-festivali-2.png"
+            "zeytinli-rock-festivali-cover.png",
+            "zeytinli-rock-festivali-2.png",
+            "zeytinli-rock-festivali-1.png"
         ],
         "address": {
             "name": "Çanakkale Karnaval Park",
@@ -762,8 +728,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Sahne Dragos",
@@ -798,8 +764,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Sahne Dragos",
@@ -830,8 +796,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -862,8 +828,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -894,8 +860,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -926,8 +892,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -958,8 +924,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -990,8 +956,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -1022,8 +988,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -1052,10 +1018,10 @@
         "prices": {
             "firstPrice": 350
         },
-        "isPopular": false,
+        "isPopular": true,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Tiyatro Akla Kara Kadıköy Sahnesi",
@@ -1088,8 +1054,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Panora Sanat Merkezi",
@@ -1122,8 +1088,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "Panora Sanat Merkezi",
@@ -1154,8 +1120,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "BAOB Sahne",
@@ -1186,8 +1152,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/doğu-ekspresinde-cinayet-cover.png",
-            "./assets/images/doğu-ekspresinde-cinayet-1.png"
+            "doğu-ekspresinde-cinayet-cover.png",
+            "doğu-ekspresinde-cinayet-1.png"
         ],
         "address": {
             "name": "BAOB Sahne",
@@ -1220,8 +1186,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/amadeus-cover.png",
-            "./assets/images/amadeus-1.png"
+            "amadeus-cover.png",
+            "amadeus-1.png"
         ],
         "address": {
             "name": "Zorlu PSM - Turkcell Sahnesi",
@@ -1254,8 +1220,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/amadeus-cover.png",
-            "./assets/images/amadeus-1.png"
+            "amadeus-cover.png",
+            "amadeus-1.png"
         ],
         "address": {
             "name": "Zorlu PSM - Turkcell Sahnesi",
@@ -1288,8 +1254,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/amadeus-cover.png",
-            "./assets/images/amadeus-1.png"
+            "amadeus-cover.png",
+            "amadeus-1.png"
         ],
         "address": {
             "name": "AKM Türk Telekom Opera Salonu",
@@ -1322,8 +1288,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/süt-kardeşler-cover.png",
-            "./assets/images/süt-kardeşler-1.png"
+            "süt-kardeşler-cover.png",
+            "süt-kardeşler-1.png"
         ],
         "address": {
             "name": "Beylikdüzü Atatürk Kültür ve Sanat Merkezi",
@@ -1354,10 +1320,10 @@
             "firstPrice": 300,
             "secondPrice": 400
         },
-        "isPopular": false,
+        "isPopular": true,
         "images": [
-            "./assets/images/şifa-niyetine-cover.png",
-            "./assets/images/şifa-niyetine-1.png"
+            "şifa-niyetine-cover.png",
+            "şifa-niyetine-1.png"
         ],
         "address": {
             "name": "Narlıdere AKM",
@@ -1388,8 +1354,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/şifa-niyetine-cover.png",
-            "./assets/images/şifa-niyetine-1.png"
+            "şifa-niyetine-cover.png",
+            "şifa-niyetine-1.png"
         ],
         "address": {
             "name": "Türkan Şoray Kültür Merkezi",
@@ -1420,8 +1386,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/şifa-niyetine-cover.png",
-            "./assets/images/şifa-niyetine-1.png"
+            "şifa-niyetine-cover.png",
+            "şifa-niyetine-1.png"
         ],
         "address": {
             "name": "Yenimahalle Bld.4 Mevsim Tiyatro Salonu",
@@ -1452,8 +1418,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/şifa-niyetine-cover.png",
-            "./assets/images/şifa-niyetine-1.png"
+            "şifa-niyetine-cover.png",
+            "şifa-niyetine-1.png"
         ],
         "address": {
             "name": "Çanakkale Belediyesi Kültür Merkezi",
@@ -1484,8 +1450,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ilker-gümüşoluk-cover.png",
-            "./assets/images/ilker-gümüşoluk-1.png"
+            "ilker-gümüşoluk-cover.png",
+            "ilker-gümüşoluk-1.png"
         ],
         "address": {
             "name": "Watergarden Performans Merkezi",
@@ -1516,8 +1482,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ilker-gümüşoluk-cover.png",
-            "./assets/images/ilker-gümüşoluk-1.png"
+            "ilker-gümüşoluk-cover.png",
+            "ilker-gümüşoluk-1.png"
         ],
         "address": {
             "name": "Yenimahalle Bld.4 Mevsim Tiyatro Salonu",
@@ -1548,8 +1514,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ilker-gümüşoluk-cover.png",
-            "./assets/images/ilker-gümüşoluk-1.png"
+            "ilker-gümüşoluk-cover.png",
+            "ilker-gümüşoluk-1.png"
         ],
         "address": {
             "name": "Aydın Kültür Merkezi",
@@ -1580,8 +1546,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/ilker-gümüşoluk-cover.png",
-            "./assets/images/ilker-gümüşoluk-1.png"
+            "ilker-gümüşoluk-cover.png",
+            "ilker-gümüşoluk-1.png"
         ],
         "address": {
             "name": "Nazım Hikmet Kültür Merkezi",
@@ -1612,8 +1578,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/gökhan-ünver-cover.png",
-            "./assets/images/gökhan-ünver-1.png"
+            "gökhan-ünver-cover.png",
+            "gökhan-ünver-1.png"
         ],
         "address": {
             "name": "Caddebostan Kültür Merkezi",
@@ -1644,8 +1610,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/gökhan-ünver-cover.png",
-            "./assets/images/gökhan-ünver-1.png"
+            "gökhan-ünver-cover.png",
+            "gökhan-ünver-1.png"
         ],
         "address": {
             "name": "Watergarden Performans Merkezi",
@@ -1676,8 +1642,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/gökhan-ünver-cover.png",
-            "./assets/images/gökhan-ünver-1.png"
+            "gökhan-ünver-cover.png",
+            "gökhan-ünver-1.png"
         ],
         "address": {
             "name": "Meb Şura Salonu",
@@ -1708,8 +1674,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/gökhan-ünver-cover.png",
-            "./assets/images/gökhan-ünver-1.png"
+            "gökhan-ünver-cover.png",
+            "gökhan-ünver-1.png"
         ],
         "address": {
             "name": "Meb Şura Salonu",
@@ -1740,8 +1706,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/gökhan-ünver-cover.png",
-            "./assets/images/gökhan-ünver-1.png"
+            "gökhan-ünver-cover.png",
+            "gökhan-ünver-1.png"
         ],
         "address": {
             "name": "İstinyeArt %100 Performans Arena",
@@ -1772,8 +1738,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/gökhan-ünver-cover.png",
-            "./assets/images/gökhan-ünver-1.png"
+            "gökhan-ünver-cover.png",
+            "gökhan-ünver-1.png"
         ],
         "address": {
             "name": "İstinyeArt %100 Performans Arena",
@@ -1802,10 +1768,10 @@
         "prices": {
             "firstPrice": 400
         },
-        "isPopular": false,
+        "isPopular": true,
         "images": [
-            "./assets/images/sefa-doğanay-cover.png",
-            "./assets/images/sefa-doğanay-1.png"
+            "sefa-doğanay-cover.png",
+            "sefa-doğanay-1.png"
         ],
         "address": {
             "name": "Watergarden Performans Merkezi",
@@ -1836,8 +1802,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/sefa-doğanay-cover.png",
-            "./assets/images/sefa-doğanay-1.png"
+            "sefa-doğanay-cover.png",
+            "sefa-doğanay-1.png"
         ],
         "address": {
             "name": "Meb Şura Salonu",
@@ -1868,8 +1834,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/sefa-doğanay-cover.png",
-            "./assets/images/sefa-doğanay-1.png"
+            "sefa-doğanay-cover.png",
+            "sefa-doğanay-1.png"
         ],
         "address": {
             "name": "Bostanlı Suat Taşer Salonu",
@@ -1902,8 +1868,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/osman-hamdi-bey-cover.png",
-            "./assets/images/osman-hamdi-bey-1.png"
+            "osman-hamdi-bey-cover.png",
+            "osman-hamdi-bey-1.png"
         ],
         "address": {
             "name": "Pera Müzesi",
@@ -1936,8 +1902,8 @@
         },
         "isPopular": false,
         "images": [
-            "./assets/images/mükemmel-formlar-heykel-sergisi-cover.png",
-            "./assets/images/mükemmel-formlar-heykel-sergisi-1.png"
+            "mükemmel-formlar-heykel-sergisi-cover.png",
+            "mükemmel-formlar-heykel-sergisi-1.png"
         ],
         "address": {
             "name": "Arter Sanat Galerisi",
