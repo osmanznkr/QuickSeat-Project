@@ -1463,7 +1463,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1495,7 +1495,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1527,7 +1527,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1559,7 +1559,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1591,7 +1591,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1623,7 +1623,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1655,7 +1655,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1687,7 +1687,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1719,7 +1719,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1751,7 +1751,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1783,7 +1783,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1815,7 +1815,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1847,7 +1847,7 @@
             "name": "Sahne",
             "type": {
                 "id": 4,
-                "name": "StandUp"
+                "name": "Stand Up"
             }
         }
     },
@@ -1916,6 +1916,720 @@
             "type": {
                 "id": 6,
                 "name": "Heykel"
+            }
+        }
+    },
+    {
+        "id": 58,
+        "eventName": "Kayserispor-Galatasaray",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 1.Hafta karşılaşmasında ev sahibi Kayserispor Galatasarayı konuk ediyor.",
+        "startDate": "2023-08-12 21:45",
+        "endDate": "2023-08-12 23:45",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 59,
+        "eventName": "Kayserispor-Samsunspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 3.Hafta karşılaşmasında ev sahibi Kayserispor Samsunsporu konuk ediyor.",
+        "startDate": "2023-08-27 19:15",
+        "endDate": "2023-08-27 21:15",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 60,
+        "eventName": "Kayserispor-Gaziantepspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 5.Hafta karşılaşmasında ev sahibi Kayserispor Gaziantepsporu konuk ediyor.",
+        "startDate": "2023-09-16 17:00",
+        "endDate": "2023-09-16 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 61,
+        "eventName": "Kayserispor-Başakşehir",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 7.Hafta karşılaşmasında ev sahibi Kayserispor Başakşehiri konuk ediyor.",
+        "startDate": "2023-10-02 20:00",
+        "endDate": "2023-10-02 22:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 62,
+        "eventName": "Kayserispor-Çaykur Rizespor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 9.Hafta karşılaşmasında ev sahibi Kayserispor Çaykur Rizesporu konuk ediyor.",
+        "startDate": "2023-10-21 13:30",
+        "endDate": "2023-10-21 15:30",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 63,
+        "eventName": "Kayserispor-Alanyaspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 11.Hafta karşılaşmasında ev sahibi Kayserispor Alanyasporu konuk ediyor.",
+        "startDate": "2023-11-06 20:00",
+        "endDate": "2023-11-06 22:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 64,
+        "eventName": "Kayserispor-Adana Demirspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 13.Hafta karşılaşmasında ev sahibi Kayserispor Adana Demirsporu konuk ediyor.",
+        "startDate": "2023-11-26 13:30",
+        "endDate": "2023-11-26 15:30",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 65,
+        "eventName": "Kayserispor-Pendikspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 15.Hafta karşılaşmasında ev sahibi Kayserispor Pendiksporu konuk ediyor.",
+        "startDate": "2023-12-10 16:00",
+        "endDate": "2023-12-10 18:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 66,
+        "eventName": "Kayserispor-Fenerbahçe",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 17.Hafta karşılaşmasında ev sahibi Kayserispor Fenerbahçeyi konuk ediyor.",
+        "startDate": "2023-12-20 17:00",
+        "endDate": "2023-12-20 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 67,
+        "eventName": "Kayserispor-Sivasspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 19.Hafta karşılaşmasında ev sahibi Kayserispor Sivassporu konuk ediyor.",
+        "startDate": "2023-12-20 17:00",
+        "endDate": "2023-12-20 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 68,
+        "eventName": "Kayserispor-İstanbulspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 21.Hafta karşılaşmasında ev sahibi Kayserispor İstanbulsporu konuk ediyor.",
+        "startDate": "2024-01-21 17:00",
+        "endDate": "2024-01-21 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 69,
+        "eventName": "Kayserispor-Antalyaspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 23.Hafta karşılaşmasında ev sahibi Kayserispor Antalyasporu konuk ediyor.",
+        "startDate": "2024-01-28 17:00",
+        "endDate": "2024-01-28 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 70,
+        "eventName": "Kayserispor-Beşiktaş",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 25.Hafta karşılaşmasında ev sahibi Kayserispor Beşiktaşı konuk ediyor.",
+        "startDate": "2024-02-11 17:00",
+        "endDate": "2024-02-11 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 71,
+        "eventName": "Kayserispor-Ankaragücü",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 27.Hafta karşılaşmasında ev sahibi Kayserispor Ankaragücünü konuk ediyor.",
+        "startDate": "2024-02-25 17:00",
+        "endDate": "2024-02-25 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 72,
+        "eventName": "Kayserispor-Hatayspor",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 29.Hafta karşılaşmasında ev sahibi Kayserispor Hataysporu konuk ediyor.",
+        "startDate": "2024-03-10 17:00",
+        "endDate": "2024-03-10 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 73,
+        "eventName": "Kayserispor-Kasımpaşa",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 31.Hafta karşılaşmasında ev sahibi Kayserispor Kasımpaşayı konuk ediyor.",
+        "startDate": "2024-04-03 17:00",
+        "endDate": "2024-04-03 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
+            }
+        }
+    },
+    {
+        "id": 74,
+        "eventName": "Kayserispor-Kasımpaşa",
+        "eventOwner": "",
+        "description": "2023-2024 Trendyol Süper Lig 31.Hafta karşılaşmasında ev sahibi Kayserispor Kasımpaşayı konuk ediyor.",
+        "startDate": "2024-04-03 17:00",
+        "endDate": "2024-04-03 19:00",
+        "ticketType": {
+            "firstType": "Kale Arkası Tribünü: ",
+            "secondType": "Maraton Tribünü: ",
+            "thirdType": "Alt Tribünü: ",
+            "fourhType": "VIP Tribünü: "
+        },
+        "prices": {
+            "firstPrice": 75,
+            "secondPrice": 150,
+            "thirdPrice": 350,
+            "fourthPrice": 750
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-stadyumu-cover.png",
+            "kadir-has-stadyumu-1.png",
+            "kadir-has-stadyumu-2.png",
+            "kadir-has-stadyumu-3.png",
+            "kadir-has-stadyumu-4.png",
+            "kadir-has-stadyumu-5.png"
+        ],
+        "address": {
+            "name": "Kadir Has Stadyumu",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 7,
+                "name": "Futbol"
             }
         }
     }
