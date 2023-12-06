@@ -1,5 +1,6 @@
 body {
   background: #ccc;
+  /* overflow-x: hidden; */
 }
 
 .slick-slide>div {
@@ -16,7 +17,7 @@ body {
   background: rgba(177, 14, 14, 0.648);
   background-color: rgb(255, 254, 254);
   border-radius: 20px;
-  height: 450px;
+  height: 480px;
   overflow: hidden;
   color: rgb(50, 49, 49);
   transition: all 0.3s ease;
@@ -30,6 +31,8 @@ body {
   border-radius: 21px;
   /* Ekledim */
 }
+
+.card-top {}
 
 .card-top h2 {
   font-size: 1.5rem;
