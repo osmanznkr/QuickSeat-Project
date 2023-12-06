@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import React, { useEffect, useRef, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import '../styles/styles.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -9,8 +8,16 @@ import Slider from "react-slick";
 import '../App.css';
 import { Button } from 'react-bootstrap';
 import eventData from '../data/Events.json';
+import moment from 'moment';
+import 'moment/locale/tr'
 
-function CardComponent({filterType}) {
+
+function CardComponent({filterType, searchQuery, selectedDateRange}) {
+
+  let [filteredEvents, setFilteredEvents] = useState(eventData);
+  
+
+  moment.locale('TR-tr')
 
    const settings = {
       dots: true,
@@ -26,7 +33,7 @@ function CardComponent({filterType}) {
       // swipeToSlide: true,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1070,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
@@ -35,7 +42,7 @@ function CardComponent({filterType}) {
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 820,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -54,88 +61,157 @@ function CardComponent({filterType}) {
       ]
     };
 
-    let filteredEvents = eventData;
+    useEffect(() => {
+  let updatedEvents = eventData;
 
-   switch (filterType) {
+  if (searchQuery) {
+    updatedEvents = eventData.filter((event) =>
+      event.eventName.toLowerCase().includes(searchQuery.toLowerCase()) 
+      // || event.address.city.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }
 
-     case 'popular':
-       filteredEvents = eventData.filter(event => event.isPopular);
-       break;
+   if (selectedDateRange && selectedDateRange.length === 2) {
+    const startDate = moment(selectedDateRange[0]);
+    const endDate = moment(selectedDateRange[1]);
 
-     case 'music':
-       filteredEvents = eventData.filter(event => event.category.name === 'Müzik');
-       break;
+    updatedEvents = updatedEvents.filter((event) =>
+      moment(event.startDate).isBetween(startDate, endDate, null, '[]')
+    );
+  }
+
+
+  switch (filterType) {
+    case 'all':
+      
+      break;
+
+    case 'popular':
+      updatedEvents = updatedEvents.filter(event => event.isPopular);
+      break;
+
+    case 'music':
+      updatedEvents = updatedEvents.filter(event => event.category.name === 'Müzik');
+      break;
+
+    case 'concert':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Konser');
+      break;
+
+    case 'festival':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Festival');
+      break;
+
+    case 'stage':
+      updatedEvents = updatedEvents.filter(event => event.category.name === 'Sahne');
+      break;
+
+    case 'theater':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Tiyatro');
+      break;
+
+    case 'standup':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Stand Up');
+      break;
+
+    case 'art':
+      updatedEvents = updatedEvents.filter(event => event.category.name === 'Sanat');
+      break;
+
+    case 'painting':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Resim');
+      break;
+
+    case 'sculpture':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Heykel');
+      break;
+
+    case 'sport':
+      updatedEvents = updatedEvents.filter(event => event.category.name === 'Spor');
+      break;
+
+    case 'football':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Futbol');
+      break;
+
+    case 'basketball':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Basketbol');
+      break;
+
+    case 'espor':
+      updatedEvents = updatedEvents.filter(event => event.category.type.name === 'Espor');
+      break;
+
+    case 'outdated':
+      const currentDate = new Date();
+      updatedEvents = updatedEvents.filter(event => new Date(event.startDate) < currentDate);
+      break;
+
+    default:
     
-     case 'concert':
-       filteredEvents = eventData.filter(event => event.category.type.name === 'Konser');
-       break;
+      break;
+  }
 
-     case 'festival':
-       filteredEvents = eventData.filter(event => event.category.type.name === 'Festival');
-       break;
+   setFilteredEvents(updatedEvents);
+}, [filterType, searchQuery, selectedDateRange]);
 
-     case 'stage':
-       filteredEvents = eventData.filter(event => event.category.name === 'Sahne');
-       break;
+    
 
-     case 'theater':
-       filteredEvents = eventData.filter(event => event.category.type.name === 'Tiyatro');
-       break; 
+  return (
+    <>
+      <div>
+        {filteredEvents.length === 0 ? (
+          <p style={{ fontSize: '20px', fontStyle: 'oblique' }}>
+            Arama kriterlerinize uygun sonuç bulunamadı.
+          </p>
+        ) : (
+          <>
+            <Slider style={{ margin: '20px 20px' }} {...settings}>
+              {filteredEvents.map((event) => (
+                <>
+                <div className='cardSlick' key={event.id}>
+                  <div className='card-top'>
+                    <img
+                      src={`images/${event.images[0]}`}
+                      alt={event.eventName} />
+                    <h2>{event.eventName}</h2>
+                  </div>
+                  <div className='card-bottom-buy'>
+                    <h4>{event.prices.firstPrice}₺</h4>
+                    <Link to={`/event/${event.id}`}>
+                      <Button
+                        size='sm'
+                        variant='outline-success'
+                        style={{ borderRadius: '20px' }}
+                      >
+                        Etkinlik Detayı
+                      </Button>
+                    </Link>
+                  </div>
+                  <div className='card-bottom'>
+                    <p
+                      style={{
+                        color: moment(event.startDate).isBefore(moment())
+                          ? 'red'
+                          : 'inherit',
+                      }}
+                    >
+                      {moment(event.startDate).format('Do MMMM YYYY dddd HH:mm ')}
+                    </p>
+                  </div>
+                </div>
+                  <div>
+                  </div>
 
-     case 'standup':
-       filteredEvents = eventData.filter(event => event.category.type.name === 'StandUp');
-       break;
-
-      case 'art':
-       filteredEvents = eventData.filter(event => event.category.name === 'Sanat');
-       break; 
-
-     case 'painting':
-       filteredEvents = eventData.filter(event => event.category.type.name === 'Resim');
-       break;
-
-     case 'sculpture':
-       filteredEvents = eventData.filter(event => event.category.type.name === 'Heykel');
-       break; 
-
-     default:
-       filteredEvents = eventData;
-       break;
-}
-
-  return <>
-  <div>
-    <Slider style={{ margin: '20px 20px' }} {...settings}>
-        {filteredEvents.map(event => (
-          <div className='cardSlick' key={event.id}>
-            <div className='card-top'>
-              <img src={`images/${event.images[1]}`} alt={event.eventName} />
-              <h2>{event.eventName}</h2>
-            </div>
-            <div className='card-bottom-buy'>
-              <h4>{event.prices.firstPrice}₺</h4>
-              <Button
-                size='sm'
-                variant='outline-success'
-                style={{ borderRadius: '20px' }}
-              >
-                Etkinlik Detayı
-              </Button>
-            </div>
-            <div className='card-bottom'>
-              <p>{event.startDate}</p>
-            </div>
-          </div>
-        ))}
-      </Slider>
-  </div>
-        
-
-  </>
-
+                </>
+              ))}
+            </Slider>
+          </>
+        )}
+      </div>
+    </>
+  );
 }
 
 export default CardComponent;
-
-
 
