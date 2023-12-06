@@ -3168,8 +3168,7 @@
         },
         "isPopular": false,
         "images": [
-            "rockn-coke-cover.png",
-            "festival-default.png"
+            "rockn-coke-cover.png"
         ],
         "address": {
             "name": "Harbiye Cemil Topuzlu Açıkhava Sahnesi",
@@ -3202,7 +3201,6 @@
         },
         "isPopular": false,
         "images": [
-            "festival-default.png",
             "cso-ankara.png"
         ],
         "address": {
@@ -3231,8 +3229,7 @@
         },
         "isPopular": false,
         "images": [
-            "altın-çocuklar-cover.png",
-            "resim-default.png"
+            "altın-çocuklar-cover.png"
         ],
         "address": {
             "name": "Galeri Ark",
@@ -3260,7 +3257,6 @@
         },
         "isPopular": false,
         "images": [
-            "resim-default.png",
             "çocuk-resim.png"
         ],
         "address": {
@@ -3328,8 +3324,7 @@
         },
         "isPopular": false,
         "images": [
-            "picasso-cover.png",
-            "resim-default.png"
+            "picasso-cover.png"
         ],
         "address": {
             "name": "Pera Müzesi",
@@ -3362,8 +3357,7 @@
         },
         "isPopular": false,
         "images": [
-            "michelangelo-cover.png",
-            "heykel-default.png"
+            "michelangelo-cover.png"
         ],
         "address": {
             "name": "Arter Sanat Galerisi",
@@ -3395,9 +3389,6 @@
             "secondPrice": 1000
         },
         "isPopular": false,
-        "images": [
-            "heykel-default.png"
-        ],
         "address": {
             "name": "Arter Sanat Galerisi",
             "city": "İstanbul",
@@ -3428,9 +3419,6 @@
             "secondPrice": 1000
         },
         "isPopular": false,
-        "images": [
-            "heykel-default.png"
-        ],
         "address": {
             "name": "Arter Sanat Galerisi",
             "city": "İstanbul",
@@ -3462,8 +3450,7 @@
         },
         "isPopular": false,
         "images": [
-            "isamu-cover.png",
-            "heykel-default.png"
+            "isamu-cover.png"
         ],
         "address": {
             "name": "Arter Sanat Galerisi",
