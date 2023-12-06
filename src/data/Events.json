@@ -1889,7 +1889,7 @@
         "id": 57,
         "eventName": "Mükemmel Formlar Heykel Sergisi",
         "eventOwner": "",
-        "description": "Istanbul Sanat Galerisi, 'Mükemmel Formlar' adlı muhteşem bir heykel sergisine ev sahipliği yapıyor. Türkiye'nin önde gelen heykeltıraşlarından olan Ahmet Demir'in başyapıtları, sanatseverleri çağdaş heykel sanatının büyüleyici dünyasına davet ediyor. Metal, taş, ahşap ve seramikten oluşturulmuş eserler, izleyicilere benzersiz bir deneyim sunacak.",
+        "description": "Arter Sanat Galerisi, 'Mükemmel Formlar' adlı muhteşem bir heykel sergisine ev sahipliği yapıyor. Türkiye'nin önde gelen heykeltıraşlarından olan Ahmet Demir'in başyapıtları, sanatseverleri çağdaş heykel sanatının büyüleyici dünyasına davet ediyor. Metal, taş, ahşap ve seramikten oluşturulmuş eserler, izleyicilere benzersiz bir deneyim sunacak.",
         "startDate": "2024-01-06 14:00",
         "endDate": "2024-02-06 19:00",
         "ticketType": {
@@ -2593,34 +2593,29 @@
     },
     {
         "id": 74,
-        "eventName": "Kayserispor-Kasımpaşa",
+        "eventName": "Melikgazi Kayseri-Beşiktaş",
         "eventOwner": "",
-        "description": "2023-2024 Trendyol Süper Lig 31.Hafta karşılaşmasında ev sahibi Kayserispor Kasımpaşayı konuk ediyor.",
-        "startDate": "2024-04-03 17:00",
-        "endDate": "2024-04-03 19:00",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 1.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Beşiktaşı konuk ediyor.",
+        "startDate": "2023-10-09 17:00",
+        "endDate": "2023-10-09 19:00",
         "ticketType": {
-            "firstType": "Kale Arkası Tribünü: ",
-            "secondType": "Maraton Tribünü: ",
-            "thirdType": "Alt Tribünü: ",
-            "fourhType": "VIP Tribünü: "
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
         },
         "isPopular": false,
         "images": [
-            "kadir-has-stadyumu-cover.png",
-            "kadir-has-stadyumu-1.png",
-            "kadir-has-stadyumu-2.png",
-            "kadir-has-stadyumu-3.png",
-            "kadir-has-stadyumu-4.png",
-            "kadir-has-stadyumu-5.png"
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
         ],
         "address": {
-            "name": "Kadir Has Stadyumu",
+            "name": "Kadir Has Basketbol Sahası",
             "city": "Kayseri",
             "location": "google"
         },
@@ -2628,8 +2623,859 @@
             "id": 4,
             "name": "Spor",
             "type": {
-                "id": 7,
-                "name": "Futbol"
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 75,
+        "eventName": "Melikgazi Kayseri-Rize Belediyesi",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 3.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Rize Belediyesini konuk ediyor.",
+        "startDate": "2023-10-23 17:00",
+        "endDate": "2023-10-23 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 76,
+        "eventName": "Melikgazi Kayseri-ÇBK Mersin",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 5.hafta karşılaşmasında ev sahibi Melikgazi Kayseri ÇBK Mersini konuk ediyor.",
+        "startDate": "2023-11-05 17:00",
+        "endDate": "2023-11-05 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 77,
+        "eventName": "Melikgazi Kayseri-Botaş",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 7.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Botaşı konuk ediyor.",
+        "startDate": "2023-11-19 17:00",
+        "endDate": "2023-11-19 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 78,
+        "eventName": "Melikgazi Kayseri-Bursa Uludağ",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 9.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Bursa Uludağı konuk ediyor.",
+        "startDate": "2023-12-04 17:00",
+        "endDate": "2023-12-04 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 79,
+        "eventName": "Melikgazi Kayseri-Antalya 07",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 10.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Antalya 07yi konuk ediyor.",
+        "startDate": "2023-11-12 17:00",
+        "endDate": "2023-11-12 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 80,
+        "eventName": "Melikgazi Kayseri-Galatasaray",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 12.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Galatasarayı konuk ediyor.",
+        "startDate": "2023-11-25 17:00",
+        "endDate": "2023-11-25 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 81,
+        "eventName": "Melikgazi Kayseri-Hatay",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 15.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Hatayı konuk ediyor.",
+        "startDate": "2024-01-15 17:00",
+        "endDate": "2024-01-15 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 82,
+        "eventName": "Melikgazi Kayseri-OGM Orman",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 12.hafta karşılaşmasında ev sahibi Melikgazi Kayseri OGM Ormanı konuk ediyor.",
+        "startDate": "2024-01-29 17:00",
+        "endDate": "2024-01-29 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 83,
+        "eventName": "Melikgazi Kayseri-Fenerbahçe",
+        "eventOwner": "",
+        "description": "2023-2024 Ing Kadınlar Basketbol Süper Ligi 12.hafta karşılaşmasında ev sahibi Melikgazi Kayseri Fenerbahçeyi konuk ediyor.",
+        "startDate": "2024-03-04 17:00",
+        "endDate": "2024-03-04 19:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "kadir-has-basketbol-cover.png",
+            "kadir-has-basketbol-1.png",
+            "kadir-has-basketbol-2.png"
+        ],
+        "address": {
+            "name": "Kadir Has Basketbol Sahası",
+            "city": "Kayseri",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 8,
+                "name": "Basketbol"
+            }
+        }
+    },
+    {
+        "id": 84,
+        "eventName": "Valorant Game Changers Championship Watch Party",
+        "eventOwner": "",
+        "description": "Valorant Game Changers Championship finalini ESA ARENA'da birlikte izliyoruz. Bu büyük heyecanı hep birlikte izlemeye davetlisin!",
+        "startDate": "2024-01-03 17:00",
+        "endDate": "2024-01-03 21:00",
+        "ticketType": {
+            "firstType": "ÜCRETSİZ"
+        },
+        "isPopular": false,
+        "images": [
+            "valorant-gc-watchparty-cover.png",
+            "valorant-gc-watchparty-1.png",
+            "valorant-gc-watchparty-2.png"
+        ],
+        "address": {
+            "name": "ESA Espor Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 9,
+                "name": "Espor"
+            }
+        }
+    },
+    {
+        "id": 85,
+        "eventName": "Şampiyonluk Ligi TBF 2023",
+        "eventOwner": "",
+        "description": "League of Legends Kış Mevsimi Finali İzmir'de! Bu büyük heyecanı hep birlikte izlemeye davetlisin!",
+        "startDate": "2023-12-28 17:00",
+        "endDate": "2023-12-28 21:00",
+        "ticketType": {
+            "firstType": "Üst Tribün: ",
+            "secondType": "Alt Tribün: ",
+            "thirdType": "Vip Tribün: "
+        },
+        "prices": {
+            "firstPrice": 50,
+            "secondPrice": 100,
+            "thirdPrice": 175
+        },
+        "isPopular": false,
+        "images": [
+            "lol-cover.png",
+            "lol-1.png",
+            "lol-2.png"
+        ],
+        "address": {
+            "name": "Ahmed Adnan Saygun Sanat Merkezi",
+            "city": "İzmir",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 9,
+                "name": "Espor"
+            }
+        }
+    },
+    {
+        "id": 86,
+        "eventName": "Valorant Championship",
+        "eventOwner": "",
+        "description": "Valorant Championship finalini ESA ARENA'da birlikte izliyoruz. Bu büyük heyecanı hep birlikte izlemeye davetlisin!",
+        "startDate": "2024-03-28 17:00",
+        "endDate": "2024-03-28 21:00",
+        "ticketType": {
+            "firstType": "ÜCRETSİZ"
+        },
+        "isPopular": false,
+        "images": [
+            "valorant-watchparty-cover.png",
+            "valorant-watchparty-1.png",
+            "valorant-watchparty-2.png"
+        ],
+        "address": {
+            "name": "ESA Espor Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 9,
+                "name": "Espor"
+            }
+        }
+    },
+    {
+        "id": 87,
+        "eventName": "Cs2 Özel Turnuva",
+        "eventOwner": "",
+        "description": "Cs2 8 takımlık turnuvaya temsilcimiz Eternal Fire'ın maçlarını burada oynuyor.",
+        "startDate": "2024-02-07 17:00",
+        "endDate": "2024-02-07 21:00",
+        "ticketType": {
+            "firstType": "ÜCRETSİZ"
+        },
+        "isPopular": false,
+        "images": [
+            "cs-cover.png",
+            "cs-1.png",
+            "cs-2.png"
+        ],
+        "address": {
+            "name": "ESA Espor Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 9,
+                "name": "Espor"
+            }
+        }
+    },
+    {
+        "id": 88,
+        "eventName": "Cs2 ESL Pro League Season 19",
+        "eventOwner": "",
+        "description": "Cs2 ESL Pro League Season 19 turnuvasındaki dev takımları, dev maçları ESA Espor Arena'da izliyoruz.",
+        "startDate": "2024-02-07 17:00",
+        "endDate": "2024-02-07 21:00",
+        "ticketType": {
+            "firstType": "ÜCRETSİZ"
+        },
+        "isPopular": false,
+        "images": [
+            "esl-cover.png",
+            "esl-1.png",
+            "esl-2.png"
+        ],
+        "address": {
+            "name": "ESA Espor Arena",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 4,
+            "name": "Spor",
+            "type": {
+                "id": 9,
+                "name": "Espor"
+            }
+        }
+    },
+    {
+        "id": 89,
+        "eventName": "Malatya Kayısı Festivali",
+        "eventOwner": "",
+        "description": "Kayısısıyla ünlü Malatya, bu önemli geçim kaynakları arasındaki ürününün tanıtımını yapmak, turizme canlılık kazandırmak ve aynı zamanda halkın eğlenceli vakitler geçirmesini sağlamak amacıyla Malatya Kayısı Festivali düzenlemektedir. Çeşitli etkinlikler yanında muhteşem konserlere katılmak için sizleride bekliyoruz.",
+        "startDate": "2024-05-07 17:00",
+        "endDate": "2024-05-09 22:00",
+        "ticketType": {
+            "firstType": "Standart: "
+        },
+        "prices": {
+            "firstPrice": 100
+        },
+        "isPopular": false,
+        "images": [
+            "kayısı-festivali-cover.png",
+            "kayısı-festivali-1.png",
+            "kayısı-festivali-2.png"
+        ],
+        "address": {
+            "name": "Malatya Belediyesi Konser Alanı",
+            "city": "Malatya",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 2,
+                "name": "Festival"
+            }
+        }
+    },
+    {
+        "id": 90,
+        "eventName": "Rock'n Coke Müzik Festivali",
+        "eventOwner": "",
+        "description": "Biletler sınırlı sayıda! Erken rezervasyon yapın. Sanatçılar: Foo Fighters, Pearl Jam, Radiohead, Duman, Mor ve Ötesi, Athena ve daha fazlası...",
+        "startDate": "2024-07-15 17:00",
+        "endDate": "2024-07-17 23:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "VIP: "
+        },
+        "prices": {
+            "firstPrice": 500,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "rockn-coke-cover.png",
+            "festival-default.png"
+        ],
+        "address": {
+            "name": "Harbiye Cemil Topuzlu Açıkhava Sahnesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 2,
+                "name": "Festival"
+            }
+        }
+    },
+    {
+        "id": 91,
+        "eventName": "Ankara Uluslararası Müzik Festivali",
+        "eventOwner": "",
+        "description": "Her yıl Nisan ayında Ankara'da gerçekleştirilen ve uluslararası bir festival olma özelliği gösteren festival Avrupa Festivaller Birliği üyesidir.",
+        "startDate": "2024-04-20 17:00",
+        "endDate": "2024-04-22 23:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "VIP: "
+        },
+        "prices": {
+            "firstPrice": 500,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "festival-default.png",
+            "cso-ankara.png"
+        ],
+        "address": {
+            "name": "CSO ADA ANKARA",
+            "city": "Ankara",
+            "location": "google"
+        },
+        "category": {
+            "id": 1,
+            "name": "Müzik",
+            "type": {
+                "id": 2,
+                "name": "Festival"
+            }
+        }
+    },
+    {
+        "id": 92,
+        "eventName": "Altın Çocuklar Resim Galerisi",
+        "eventOwner": "",
+        "description": "Altın Çocuklar Resim Galerisi, özel eğitim gören bireylerin yaratıcılığını ve sanatsal yeteneklerini sergilemek için düzenlenen özel bir etkinliktir. Katılımcılar arasında yer alan yetenekli çocuklar, kendi özgün eserlerini sergileyerek izleyicilere duygusal bir deneyim sunacaklar.",
+        "startDate": "2024-02-15 13:30",
+        "endDate": "2024-02-17 19:00",
+        "ticketType": {
+            "firstType": "ÜCRETSİZ"
+        },
+        "isPopular": false,
+        "images": [
+            "altın-çocuklar-cover.png",
+            "resim-default.png"
+        ],
+        "address": {
+            "name": "Galeri Ark",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 5,
+                "name": "Resim"
+            }
+        }
+    },
+    {
+        "id": 93,
+        "eventName": "Gökkuşağı Resim Galerisi",
+        "eventOwner": "",
+        "description": "Gökkuşağı Resim Galerisi küçük çocukların yaratıcılığını sergilemek, sanat yeteneklerini geliştirmek ve onları renkli bir dünyaya davet etmek amacıyla düzenlenen eğlenceli bir etkinliktir. Katılımcı minik sanatçılar, kendi hayal güçlerini kullanarak renkli eserlerini sergileyecekler.",
+        "startDate": "2024-05-15 13:30",
+        "endDate": "2024-05-16 19:00",
+        "ticketType": {
+            "firstType": "ÜCRETSİZ"
+        },
+        "isPopular": false,
+        "images": [
+            "resim-default.png",
+            "çocuk-resim.png"
+        ],
+        "address": {
+            "name": "Galeri Ark",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 5,
+                "name": "Resim"
+            }
+        }
+    },
+    {
+        "id": 94,
+        "eventName": "Vincent van Gogh Resim Galerisi",
+        "eventOwner": "",
+        "description": "Ünlü Hollandalı ressam Vincent van Gogh'un eserlerinin kopyalarını içerir.",
+        "startDate": "2024-03-19 13:30",
+        "endDate": "2024-03-21 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "van-gogh-cover.png",
+            "van-gogh-1.png"
+        ],
+        "address": {
+            "name": "Pera Müzesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 5,
+                "name": "Resim"
+            }
+        }
+    },
+    {
+        "id": 95,
+        "eventName": "Pablo Picasso Resim Galerisi",
+        "eventOwner": "",
+        "description": "Ünlü İspanyol ressam Pablo Picasso'nun eserlerinin kopyalarını içerir.",
+        "startDate": "2024-03-22 13:30",
+        "endDate": "2024-03-24 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "picasso-cover.png",
+            "resim-default.png"
+        ],
+        "address": {
+            "name": "Pera Müzesi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 5,
+                "name": "Resim"
+            }
+        }
+    },
+    {
+        "id": 96,
+        "eventName": "Michelangelo Heykel Sergisi",
+        "eventOwner": "",
+        "description": "Galleria dell'Accademia'da sergilenen, ünlü İtalyan heykeltraş Michelangelo'nun David heykeli gibi önemli eserlerini sizlerle buluşturuyoruz.",
+        "startDate": "2024-02-26 14:00",
+        "endDate": "2024-02-27 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "michelangelo-cover.png",
+            "heykel-default.png"
+        ],
+        "address": {
+            "name": "Arter Sanat Galerisi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 6,
+                "name": "Heykel"
+            }
+        }
+    },
+    {
+        "id": 97,
+        "eventName": "Auguste Rodin Heykel Sergisi",
+        "eventOwner": "",
+        "description": "Musée Rodin'de sergilenen, ünlü Fransız heykeltraş Auguste Rodin'in Düşünen Adam ve Öpücük heykeli gibi önemli eserlerini sizlerle buluşturuyoruz.",
+        "startDate": "2024-03-14 14:00",
+        "endDate": "2024-03-15 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "heykel-default.png"
+        ],
+        "address": {
+            "name": "Arter Sanat Galerisi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 6,
+                "name": "Heykel"
+            }
+        }
+    },
+    {
+        "id": 98,
+        "eventName": "Barbara Hepworth Heykel Sergisi",
+        "eventOwner": "",
+        "description": "İngiliz heykeltraş Barbara Hepworth'ün eserlerini ziyaretçilerimizle buluşturacağız.",
+        "startDate": "2024-04-07 14:00",
+        "endDate": "2024-04-08 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "heykel-default.png"
+        ],
+        "address": {
+            "name": "Arter Sanat Galerisi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 6,
+                "name": "Heykel"
+            }
+        }
+    },
+    {
+        "id": 99,
+        "eventName": "Isamu Noguchi Heykel Sergisi",
+        "eventOwner": "",
+        "description": "Japonya asıllı Amerikan heykeltraş Isamu Noguchi'nin eserlerini ziyaretçilerimizle buluşturacağız.",
+        "startDate": "2024-04-26 14:00",
+        "endDate": "2024-04-28 19:00",
+        "ticketType": {
+            "firstType": "Standart: ",
+            "secondType": "Vip: "
+        },
+        "prices": {
+            "firstPrice": 400,
+            "secondPrice": 1000
+        },
+        "isPopular": false,
+        "images": [
+            "isamu-cover.png",
+            "heykel-default.png"
+        ],
+        "address": {
+            "name": "Arter Sanat Galerisi",
+            "city": "İstanbul",
+            "location": "google"
+        },
+        "category": {
+            "id": 3,
+            "name": "Sanat",
+            "type": {
+                "id": 6,
+                "name": "Heykel"
             }
         }
     }
