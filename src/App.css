@@ -1,5 +1,5 @@
 body {
-  background: #ccc;
+  background: linear-gradient(to right, #e4e4e4, #ecf3f3)
   /* overflow-x: hidden; */
 }
 
@@ -14,7 +14,8 @@ body {
 .cardSlick {
   margin: 25px 0 25px 0;
   border: 1px solid gray;
-  background: rgba(177, 14, 14, 0.648);
+  /* background: rgba(177, 14, 14, 0.648); */
+  background: linear-gradient(to right,#e4e4e4, #ecf3f3);
   background-color: rgb(255, 254, 254);
   border-radius: 20px;
   height: 480px;
