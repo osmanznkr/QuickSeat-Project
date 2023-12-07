@@ -14,11 +14,11 @@
             "fifthType": "Sahne Önü: 935₺"
         },
         "prices": {
-            "firstPrice": 330,
-            "secondPrice": 440,
-            "thirdPrice": 550,
-            "fourthPrice": 660,
-            "fifthPrice": 935
+            "firstPrice": 330.00,
+            "secondPrice": 440.00,
+            "thirdPrice": 550.00,
+            "fourthPrice": 660.00,
+            "fifthPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -57,9 +57,9 @@
             "thirdType": "Sahne Önü Vip: 935₺"
         },
         "prices": {
-            "firstPrice": 550,
-            "secondPrice": 660,
-            "thirdPrice": 935
+            "firstPrice": 550.00,
+            "secondPrice": 660.00,
+            "thirdPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -96,7 +96,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": true,
         "images": [
@@ -133,7 +133,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -174,11 +174,11 @@
             "fifthType": "Sahne Önü: 935₺"
         },
         "prices": {
-            "firstPrice": 330,
-            "secondPrice": 440,
-            "thirdPrice": 550,
-            "fourthPrice": 660,
-            "fifthPrice": 935
+            "firstPrice": 330.00,
+            "secondPrice": 440.00,
+            "thirdPrice": 550.00,
+            "fourthPrice": 660.00,
+            "fifthPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -213,7 +213,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -252,11 +252,11 @@
             "fifthType": "Sahne Önü: 935₺"
         },
         "prices": {
-            "firstPrice": 330,
-            "secondPrice": 440,
-            "thirdPrice": 550,
-            "fourthPrice": 660,
-            "fifthPrice": 935
+            "firstPrice": 330.00,
+            "secondPrice": 440.00,
+            "thirdPrice": 550.00,
+            "fourthPrice": 660.00,
+            "fifthPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -291,7 +291,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -326,7 +326,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -363,9 +363,9 @@
             "thirdType": "Sahne Önü Vip: 935₺"
         },
         "prices": {
-            "firstPrice": 550,
-            "secondPrice": 660,
-            "thirdPrice": 935
+            "firstPrice": 550.00,
+            "secondPrice": 660.00,
+            "thirdPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -400,7 +400,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -439,11 +439,11 @@
             "fifthType": "Sahne Önü: 935₺"
         },
         "prices": {
-            "firstPrice": 330,
-            "secondPrice": 440,
-            "thirdPrice": 550,
-            "fourthPrice": 660,
-            "fifthPrice": 935
+            "firstPrice": 330.00,
+            "secondPrice": 440.00,
+            "thirdPrice": 550.00,
+            "fourthPrice": 660.00,
+            "fifthPrice": 935.00
         },
         "isPopular": true,
         "images": [
@@ -482,11 +482,11 @@
             "fifthType": "Sahne Önü: 935₺"
         },
         "prices": {
-            "firstPrice": 330,
-            "secondPrice": 440,
-            "thirdPrice": 550,
-            "fourthPrice": 660,
-            "fifthPrice": 935
+            "firstPrice": 330.00,
+            "secondPrice": 440.00,
+            "thirdPrice": 550.00,
+            "fourthPrice": 660.00,
+            "fifthPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -523,9 +523,9 @@
             "thirdType": "Sahne Önü Vip: 935₺"
         },
         "prices": {
-            "firstPrice": 550,
-            "secondPrice": 660,
-            "thirdPrice": 935
+            "firstPrice": 550.00,
+            "secondPrice": 660.00,
+            "thirdPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -564,11 +564,11 @@
             "fifthType": "Sahne Önü: 935₺"
         },
         "prices": {
-            "firstPrice": 330,
-            "secondPrice": 440,
-            "thirdPrice": 550,
-            "fourthPrice": 660,
-            "fifthPrice": 935
+            "firstPrice": 330.00,
+            "secondPrice": 440.00,
+            "thirdPrice": 550.00,
+            "fourthPrice": 660.00,
+            "fifthPrice": 935.00
         },
         "isPopular": false,
         "images": [
@@ -603,7 +603,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": true,
         "images": [
@@ -638,7 +638,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -673,7 +673,7 @@
             "firstType": "Standart: 550₺"
         },
         "prices": {
-            "firstPrice": 550
+            "firstPrice": 550.00
         },
         "isPopular": false,
         "images": [
@@ -708,7 +708,7 @@
             "firstType": "Standart: 1500₺"
         },
         "prices": {
-            "firstPrice": 1500
+            "firstPrice": 1500.00
         },
         "isPopular": false,
         "images": [
@@ -744,7 +744,7 @@
             "firstType": "Standart: 1200₺"
         },
         "prices": {
-            "firstPrice": 1200
+            "firstPrice": 1200.00
         },
         "isPopular": false,
         "images": [
@@ -782,9 +782,9 @@
             "thirdType": "Orta: 400₺"
         },
         "prices": {
-            "firstPrice": 350,
-            "secondPrice": 350,
-            "thirdPrice": 400
+            "firstPrice": 350.00,
+            "secondPrice": 350.00,
+            "thirdPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -821,9 +821,9 @@
             "thirdType": "Orta: 400₺"
         },
         "prices": {
-            "firstPrice": 350,
-            "secondPrice": 350,
-            "thirdPrice": 400
+            "firstPrice": 350.00,
+            "secondPrice": 350.00,
+            "thirdPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -858,7 +858,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -893,7 +893,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -928,7 +928,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -963,7 +963,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -998,7 +998,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -1033,7 +1033,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -1068,7 +1068,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -1103,7 +1103,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": true,
         "images": [
@@ -1139,8 +1139,8 @@
             "secondType": "1.Kategori: 400₺"
         },
         "prices": {
-            "firstPrice": 350,
-            "secondPrice": 400
+            "firstPrice": 350.00,
+            "secondPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1176,8 +1176,8 @@
             "secondType": "1.Kategori: 400₺"
         },
         "prices": {
-            "firstPrice": 350,
-            "secondPrice": 400
+            "firstPrice": 350.00,
+            "secondPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1212,7 +1212,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -1247,7 +1247,7 @@
             "firstType": "Standart: 350₺"
         },
         "prices": {
-            "firstPrice": 350
+            "firstPrice": 350.00
         },
         "isPopular": false,
         "images": [
@@ -1283,8 +1283,8 @@
             "secondType": "1.Balkon: 645₺"
         },
         "prices": {
-            "firstPrice": 575,
-            "secondPrice": 645
+            "firstPrice": 575.00,
+            "secondPrice": 645.00
         },
         "isPopular": false,
         "images": [
@@ -1320,8 +1320,8 @@
             "secondType": "1.Balkon: 645₺"
         },
         "prices": {
-            "firstPrice": 575,
-            "secondPrice": 645
+            "firstPrice": 575.00,
+            "secondPrice": 645.00
         },
         "isPopular": false,
         "images": [
@@ -1357,8 +1357,8 @@
             "secondType": "1.Balkon: 645₺"
         },
         "prices": {
-            "firstPrice": 575,
-            "secondPrice": 645
+            "firstPrice": 575.00,
+            "secondPrice": 645.00
         },
         "isPopular": false,
         "images": [
@@ -1394,8 +1394,8 @@
             "secondType": "Tam: 444₺"
         },
         "prices": {
-            "firstPrice": 344,
-            "secondPrice": 444
+            "firstPrice": 344.00,
+            "secondPrice": 444.00
         },
         "isPopular": false,
         "images": [
@@ -1431,8 +1431,8 @@
             "secondType": "1.Kategori: 400₺"
         },
         "prices": {
-            "firstPrice": 300,
-            "secondPrice": 400
+            "firstPrice": 300.00,
+            "secondPrice": 400.00
         },
         "isPopular": true,
         "images": [
@@ -1467,7 +1467,7 @@
             "firstType": "Standart: 270₺"
         },
         "prices": {
-            "firstPrice": 270
+            "firstPrice": 270.00
         },
         "isPopular": false,
         "images": [
@@ -1502,7 +1502,7 @@
             "firstType": "Standart: 270₺"
         },
         "prices": {
-            "firstPrice": 270
+            "firstPrice": 270.00
         },
         "isPopular": false,
         "images": [
@@ -1537,7 +1537,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1572,7 +1572,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1607,7 +1607,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1642,7 +1642,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1677,7 +1677,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1712,7 +1712,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1747,7 +1747,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1782,7 +1782,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1817,7 +1817,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1852,7 +1852,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1887,7 +1887,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1922,7 +1922,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": true,
         "images": [
@@ -1957,7 +1957,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -1992,7 +1992,7 @@
             "firstType": "Standart: 400₺"
         },
         "prices": {
-            "firstPrice": 400
+            "firstPrice": 400.00
         },
         "isPopular": false,
         "images": [
@@ -2028,8 +2028,8 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -2065,8 +2065,8 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -2104,10 +2104,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2149,10 +2149,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2194,10 +2194,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2239,10 +2239,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2284,10 +2284,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2329,10 +2329,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2374,10 +2374,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2419,10 +2419,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2464,10 +2464,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2509,10 +2509,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2554,10 +2554,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2599,10 +2599,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2644,10 +2644,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2689,10 +2689,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2734,10 +2734,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2779,10 +2779,10 @@
             "fourhType": "VIP Tribünü: 750₺"
         },
         "prices": {
-            "firstPrice": 75,
-            "secondPrice": 150,
-            "thirdPrice": 350,
-            "fourthPrice": 750
+            "firstPrice": 75.00,
+            "secondPrice": 150.00,
+            "thirdPrice": 350.00,
+            "fourthPrice": 750.00
         },
         "isPopular": false,
         "images": [
@@ -2823,9 +2823,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -2863,9 +2863,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -2903,9 +2903,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -2943,9 +2943,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -2983,9 +2983,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3023,9 +3023,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3063,9 +3063,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3103,9 +3103,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3143,9 +3143,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3183,9 +3183,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3259,9 +3259,9 @@
             "thirdType": "Vip Tribün: 175₺"
         },
         "prices": {
-            "firstPrice": 50,
-            "secondPrice": 100,
-            "thirdPrice": 175
+            "firstPrice": 50.00,
+            "secondPrice": 100.00,
+            "thirdPrice": 175.00
         },
         "isPopular": false,
         "images": [
@@ -3405,7 +3405,7 @@
             "firstType": "Standart: 100₺"
         },
         "prices": {
-            "firstPrice": 100
+            "firstPrice": 100.00
         },
         "isPopular": false,
         "images": [
@@ -3442,8 +3442,8 @@
             "secondType": "VIP: 1000₺"
         },
         "prices": {
-            "firstPrice": 500,
-            "secondPrice": 1000
+            "firstPrice": 500.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -3478,8 +3478,8 @@
             "secondType": "VIP: 1000₺"
         },
         "prices": {
-            "firstPrice": 500,
-            "secondPrice": 1000
+            "firstPrice": 500.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -3582,8 +3582,8 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -3619,8 +3619,8 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -3655,8 +3655,8 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
@@ -3691,13 +3691,12 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
-            "ilker-gümüşoluk-cover.png",
-            "ilker-gümüşoluk-1.png"
+            "default-heykel.png"
         ],
         "address": {
             "name": "Arter Sanat Galerisi",
@@ -3728,13 +3727,12 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
-            "ilker-gümüşoluk-cover.png",
-            "ilker-gümüşoluk-1.png"
+            "default-heykel.png"
         ],
         "address": {
             "name": "Arter Sanat Galerisi",
@@ -3765,8 +3763,8 @@
             "secondType": "Vip: 1000₺"
         },
         "prices": {
-            "firstPrice": 400,
-            "secondPrice": 1000
+            "firstPrice": 400.00,
+            "secondPrice": 1000.00
         },
         "isPopular": false,
         "images": [
