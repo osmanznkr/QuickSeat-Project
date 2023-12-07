@@ -83,7 +83,7 @@ function NavbarComponent() {
                     Basketbol
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/events" onClick={() => handleCategorySelect('espor')}>
-                    E Spor
+                    Espor
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Sanat" id="navbarScrollingDropdown">
@@ -126,59 +126,59 @@ function NavbarComponent() {
       <>
         {(selectedCategory === null || selectedCategory === 'all') && (
           <>
-          <h1>Tüm Etkinlikler</h1>
+          <h1 className='titles'>Tüm Etkinlikler</h1>
             <CardComponent searchQuery={searchQuery} selectedDateRange={selectedDateRange}/>
-          <h1>Müzik</h1>
+          <h1 className='titles'>Müzik</h1>
             <CardComponent filterType="music" selectedDateRange={selectedDateRange} />
-          <h1>Sahne</h1>
+          <h1 className='titles'>Sahne</h1>
             <CardComponent filterType="stage" selectedDateRange={selectedDateRange}/>
-          <h1>Sanat</h1>  
+          <h1 className='titles'>Sanat</h1>  
             <CardComponent filterType="art" selectedDateRange={selectedDateRange}/>
-          <h1>Spor</h1>
+          <h1 className='titles'>Spor</h1>
             <CardComponent filterType="sport" selectedDateRange={selectedDateRange}/>
           </>
         )}
         {selectedCategory === 'music' && (
-          <><h1>Müzik</h1><CardComponent filterType="music" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><h1 className='titles'>Müzik</h1><CardComponent filterType="music" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'concert' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Müzik</h1> <h2>-Konser</h2></div> <CardComponent filterType="concert" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Müzik</h1> <h2>-Konser</h2></div> <CardComponent filterType="concert" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'festival' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Müzik</h1> <h2>-Festival</h2></div> <CardComponent filterType="festival" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Müzik</h1> <h2>-Festival</h2></div> <CardComponent filterType="festival" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'stage' && (
-          <><h1>Sahne</h1><CardComponent filterType="stage" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><h1 className='titles'>Sahne</h1><CardComponent filterType="stage" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'theater' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Sahne</h1> <h2>-Tiyatro</h2></div> <CardComponent filterType="theater" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Sahne</h1> <h2>-Tiyatro</h2></div> <CardComponent filterType="theater" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'standup' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Sahne</h1> <h2>-Stand Up</h2></div> <CardComponent filterType="standup" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Sahne</h1> <h2>-Stand Up</h2></div> <CardComponent filterType="standup" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'sport' && (
-          <><h1>Spor</h1><CardComponent filterType="sport" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><h1 className='titles'>Spor</h1><CardComponent filterType="sport" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'football' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Spor</h1> <h2>-Futbol</h2></div> <CardComponent filterType="football" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Spor</h1> <h2>-Futbol</h2></div> <CardComponent filterType="football" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'basketball' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Spor</h1> <h2>-Basketbol</h2></div> <CardComponent filterType="basketball" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Spor</h1> <h2>-Basketbol</h2></div> <CardComponent filterType="basketball" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'espor' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Spor</h1> <h2>-E Spor</h2></div> <CardComponent filterType="espor" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Spor</h1> <h2>-Espor</h2></div> <CardComponent filterType="espor" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'art' && (
-          <><h1>Sanat</h1><CardComponent filterType="art" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><h1 className='titles'>Sanat</h1><CardComponent filterType="art" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         {selectedCategory === 'painting' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Sanat</h1> <h2>-Resim</h2></div> <CardComponent filterType="painting"searchQuery={searchQuery} selectedDateRange={selectedDateRange} /></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Sanat</h1> <h2>-Resim</h2></div> <CardComponent filterType="painting"searchQuery={searchQuery} selectedDateRange={selectedDateRange} /></>
         )}
         {selectedCategory === 'sculpture' && (
-          <><div style={{display:'flex', alignItems:'end'}}><h1>Sanat</h1> <h2>-Heykel</h2></div> <CardComponent filterType="sculpture" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><div style={{display:'flex', alignItems:'end'}}><h1 className='titles'>Sanat</h1> <h2>-Heykel</h2></div> <CardComponent filterType="sculpture" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
          {selectedCategory === 'outdated' && (
-          <><h1>Zamanı Geçmiş Etkinlikler</h1><CardComponent filterType="outdated" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
+          <><h1 className='titles'>Zamanı Geçmiş Etkinlikler</h1><CardComponent filterType="outdated" searchQuery={searchQuery} selectedDateRange={selectedDateRange}/></>
         )}
         
       </>
