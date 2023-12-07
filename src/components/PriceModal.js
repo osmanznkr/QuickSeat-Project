@@ -13,20 +13,11 @@ function PriceModal(props) {
     </option>
   ));
 
-    const priceTypeOptions = Object.entries(event.prices).map(([key, value]) => (
-    <option key={key} value={key}>
-      {`${value}`}
-    </option>
-  ));
 
   const onConfirm = () => {
-    // Onay işlemleri burada yapılabilir.
-    // Örneğin, bir API çağrısı yapabilir veya başka bir işlem gerçekleştirebilirsiniz.
 
-    // Alert mesajı gösterme örneği:
     alert('Başarılı! Bilet seçimi onaylandı.');
 
-    // Modal'ı kapatma işlemi (isteğe bağlı)
     onHide();
   };
 
