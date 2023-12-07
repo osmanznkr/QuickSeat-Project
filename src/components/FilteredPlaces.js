@@ -1,10 +1,10 @@
 import React from 'react'
-import CardComponent from './card'
+import CardComponent from './Card'
 
-function FilteredPlaces(filteredCity) {
+function FilteredPlaces(filteredPlaces) {
   return (
     <div>
-        <CardComponent filterType={filteredCity} /> 
+        <CardComponent  />
     </div>
   )
 }

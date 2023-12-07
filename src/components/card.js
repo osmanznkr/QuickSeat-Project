@@ -1,6 +1,6 @@
-/* eslint-disable jsx-a11y/alt-text */
-import React, { useEffect, useRef, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 import '../styles/styles.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -30,7 +30,6 @@ function CardComponent({filterType, searchQuery, selectedDateRange}) {
       slidesToScroll: 4,
       initialSlide: 0,
       pauseOnHover: true,
-      // swipeToSlide: true,
       responsive: [
         {
           breakpoint: 1070,
@@ -67,7 +66,7 @@ function CardComponent({filterType, searchQuery, selectedDateRange}) {
   if (searchQuery) {
     updatedEvents = eventData.filter((event) =>
       event.eventName.toLowerCase().includes(searchQuery.toLowerCase()) 
-      // || event.address.city.toLowerCase().includes(searchQuery.toLowerCase())
+      || event.address.city.toLowerCase().includes(searchQuery.toLowerCase())
     );
   }
 
@@ -152,7 +151,21 @@ function CardComponent({filterType, searchQuery, selectedDateRange}) {
       break;
   }
 
-   setFilteredEvents(updatedEvents);
+   if (filterType !== 'outdated') {
+    const currentDate = new Date();
+    updatedEvents = updatedEvents.filter((event) => new Date(event.startDate) > currentDate);
+
+    updatedEvents.sort((a, b) => {
+      const dateA = new Date(a.startDate);
+      const dateB = new Date(b.startDate);
+      return dateA - dateB;
+    });
+  }
+
+  setFilteredEvents(updatedEvents);
+  
+
+   
 }, [filterType, searchQuery, selectedDateRange]);
 
     
@@ -177,7 +190,11 @@ function CardComponent({filterType, searchQuery, selectedDateRange}) {
                     <h2>{event.eventName}</h2>
                   </div>
                   <div className='card-bottom-buy'>
-                    <h4>{event.prices.firstPrice}₺</h4>
+                    <h4>
+                       {event.prices.firstPrice === 0
+                       ? <span style={{ color: 'green' }}>Ücretsiz</span>
+                       : `${event.prices.firstPrice}₺`}
+                    </h4>
                     <Link to={`/event/${event.id}`}>
                       <Button
                         size='sm'

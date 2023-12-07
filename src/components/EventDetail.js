@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import eventData from '../data/Events.json';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import { enums } from '../store/enums';
@@ -7,13 +7,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Button } from 'react-bootstrap';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Modal from 'react-bootstrap/Modal';
-import Row from 'react-bootstrap/Row';
 import { useState } from 'react';
-import Form from 'react-bootstrap/Form';
 import PriceModal from './PriceModal';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 
 function EventDetail(props) {
@@ -23,7 +19,7 @@ function EventDetail(props) {
   const [modalShow, setModalShow] = useState(false);
 
   const mapStyles = {
-    width: '70vh',
+    width: '70%',
     height: '50vh',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -31,8 +27,8 @@ function EventDetail(props) {
   };
 
   const markerPosition = {
-    lat: 38.726785,
-    lng: 35.506347,
+    lat: event.address.location.lat,
+    lng: event.address.location.lng,
   };
 
   const isEventExpired = new Date(event.endDate) < new Date();
@@ -51,6 +47,28 @@ function EventDetail(props) {
     backgroundColor: isEventExpired ? 'gray' : 'green',
     cursor: isEventExpired ? 'not-allowed' : 'pointer', 
     border: isEventExpired ? 'none' : 'inherit', 
+  };
+
+  const shareOnSocialMedia = (platform) => {
+    const shareText = `Katıldığım etkinlik: ${event.eventName} ${event.description} - ${event.startDate} - ${event.address.city}, ${event.address.name}`;
+    let shareLink = '';
+
+    switch (platform) {
+      case 'facebook':
+        shareLink = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(shareText)}`;
+        break;
+      case 'twitter':
+        shareLink = `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(shareText)}`;
+        break;
+      case 'instagram':
+        window.location.href = 'https://www.instagram.com/';
+        return;
+      default:
+        break;
+    }
+
+    // Paylaşım linkini aç
+    window.open(shareLink, '_blank');
   };
 
 
@@ -84,7 +102,11 @@ function EventDetail(props) {
             <ListGroup.Item style={{ ...boldText, ...dateText }}>{`Başlama Tarihi: ${event.startDate}`}</ListGroup.Item>
             <ListGroup.Item style={{ ...boldText, ...dateText }}>{`Bitiş Tarihi: ${event.endDate}`}</ListGroup.Item>
             <ListGroup.Item>{`Şehir: ${event.address.city}`}</ListGroup.Item>
-            <ListGroup.Item>{`Adres: ${event.address.name}`}</ListGroup.Item>
+            <ListGroup.Item>
+             <Link to={`/event/address`}>
+               {`Adres: ${event.address.name}`}
+             </Link>
+            </ListGroup.Item>
           </ListGroup>
           <Card.Body>
             <Button style={buttonStyle} variant="success" disabled={isEventExpired} onClick={() => setModalShow(true) }>
@@ -93,6 +115,17 @@ function EventDetail(props) {
             <PriceModal show={modalShow} onHide={() => setModalShow(false)} event={event} />
           </Card.Body>
         </Card>
+      </div>
+      <div style={{ width: '70%', textAlign: 'center', display:'flex', justifyContent:'center', gap:20, margin:'auto', marginTop:'20px' }}>
+        <Button variant="primary" onClick={() => shareOnSocialMedia('facebook')}>
+          <FaFacebook /> Paylaş (Facebook)
+        </Button>
+        <Button variant="info" onClick={() => shareOnSocialMedia('twitter')}>
+          <FaTwitter /> Paylaş (Twitter)
+        </Button>
+        <Button variant="danger" onClick={() => shareOnSocialMedia('instagram')}>
+          <FaInstagram /> Paylaş (Instagram)
+        </Button>
       </div>
 
       <div style={{ margin: 'auto', textAlign: 'center', width: '%50' }}>
@@ -107,6 +140,7 @@ function EventDetail(props) {
           <Marker position={markerPosition} />
         </Map>
       </div>
+      
     </>
   );
 }

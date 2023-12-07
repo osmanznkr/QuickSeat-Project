@@ -7,12 +7,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './Home';
-import CardComponent from './card'
+import CardComponent from './Card'
 import { DateRangePicker } from 'rsuite';
 import tr_TR from "rsuite/locales/tr_TR";
 import "rsuite/dist/rsuite.css";
 import EventDetail from './EventDetail';
 import FooterComponent from './Footer';
+import FilteredPlaces from './FilteredPlaces';
 
 function NavbarComponent() {
 
@@ -116,6 +117,7 @@ function NavbarComponent() {
              <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/event/:id" element={<EventDetail />} />
+            <Route path="/event/address" element={<FilteredPlaces />} />
           </Routes>
           <Routes>
   <Route

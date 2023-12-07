@@ -1,5 +1,5 @@
 import React from 'react'
-import CardComponent from './card'
+import CardComponent from './Card'
 
 function Events({selectedCategory}) {
 
