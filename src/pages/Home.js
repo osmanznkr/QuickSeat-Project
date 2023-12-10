@@ -1,6 +1,6 @@
 import React from 'react'
-import CardComponent from './Card'
-import Slider from './Slider'
+import CardComponent from '../components/Card'
+import Slider from '../components/Slider'
 
 function Home() {
   return (
