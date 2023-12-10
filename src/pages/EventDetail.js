@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import eventData from '../data/Events.json';
@@ -8,8 +9,10 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Button } from 'react-bootstrap';
 import { useState } from 'react';
-import PriceModal from './PriceModal';
+import PriceModal from '../components/PriceModal';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import moment from 'moment';
+import 'moment/locale/tr'
 
 
 function EventDetail(props) {
@@ -67,13 +70,15 @@ function EventDetail(props) {
         break;
     }
 
-    // Paylaşım linkini aç
     window.open(shareLink, '_blank');
   };
+
+  moment.locale('TR-tr')
 
 
   return (
     <>
+    <div style={{display:'flex', flexDirection:'column'}}>
       <div style={{ width: '70%', margin: 'auto', textAlign: 'center' }}>
         <Carousel style={{ marginTop: '40px' }} data-bs-theme="light">
           {event.images.map((image, index) => (
@@ -99,11 +104,11 @@ function EventDetail(props) {
             <Card.Text>{event.description}</Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
-            <ListGroup.Item style={{ ...boldText, ...dateText }}>{`Başlama Tarihi: ${event.startDate}`}</ListGroup.Item>
-            <ListGroup.Item style={{ ...boldText, ...dateText }}>{`Bitiş Tarihi: ${event.endDate}`}</ListGroup.Item>
+            <ListGroup.Item style={{ ...boldText, ...dateText }}>{`Başlama Tarihi: ${moment(event.startDate).format('Do MMMM YYYY dddd HH:mm ')}`}</ListGroup.Item>
+            <ListGroup.Item style={{ ...boldText, ...dateText }}>{`Bitiş Tarihi: ${moment(event.endDate).format('Do MMMM YYYY dddd HH:mm ')}`}</ListGroup.Item>
             <ListGroup.Item>{`Şehir: ${event.address.city}`}</ListGroup.Item>
             <ListGroup.Item>
-             <Link to={`/event/address`}>
+             <Link to={`/event-address`}>
                {`Adres: ${event.address.name}`}
              </Link>
             </ListGroup.Item>
@@ -128,7 +133,7 @@ function EventDetail(props) {
         </Button>
       </div>
 
-      <div style={{ margin: 'auto', textAlign: 'center', width: '%50' }}>
+      <div style={{ textAlign: 'center' }}>
         <Map
           google={props.google}
           zoom={15}
@@ -140,6 +145,8 @@ function EventDetail(props) {
           <Marker position={markerPosition} />
         </Map>
       </div>
+    </div>
+      
       
     </>
   );

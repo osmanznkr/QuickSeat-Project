@@ -82,8 +82,7 @@ function CardComponent({filterType, searchQuery, selectedDateRange}) {
 
   switch (filterType) {
     case 'all':
-      
-      break;
+       break;
 
     case 'popular':
       updatedEvents = updatedEvents.filter(event => event.isPopular);
@@ -179,7 +178,7 @@ function CardComponent({filterType, searchQuery, selectedDateRange}) {
           </p>
         ) : (
           <>
-            <Slider style={{ margin: '20px 20px' }} {...settings}>
+            <Slider style={{ margin: '20px 2%' }} {...settings}>
               {filteredEvents.map((event) => (
                 <>
                 <div className='cardSlick' key={event.id}>
