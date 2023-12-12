@@ -1,5 +1,6 @@
 import React from 'react'
-import CardComponent from './Card'
+import CardComponent from '../components/Card'
+
 
 function FilteredPlaces(filteredPlaces) {
   return (

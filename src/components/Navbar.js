@@ -11,13 +11,13 @@ import { DateRangePicker } from 'rsuite';
 import tr_TR from "rsuite/locales/tr_TR";
 import "rsuite/dist/rsuite.css";
 import EventDetail from '../pages/EventDetail';
-import FilteredPlaces from './FilteredPlaces';
 import Events from '../pages/Events';
 import Music from '../pages/Music';
 import Stage from '../pages/Stage';
 import Sport from '../pages/Sport';
 import Art from '../pages/Art';
 import Outdated from '../pages/Outdated';
+import FilteredPlaces from '../pages/FilteredPlaces';
 
 function NavbarComponent() {
 
