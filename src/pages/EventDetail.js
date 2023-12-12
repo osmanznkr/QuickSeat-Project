@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import eventData from '../data/Events.json';
-import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import { enums } from '../store/enums';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
@@ -11,8 +10,10 @@ import { Button } from 'react-bootstrap';
 import { useState } from 'react';
 import PriceModal from '../components/PriceModal';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import GoogleMapReact from 'google-map-react';
 import moment from 'moment';
 import 'moment/locale/tr'
+import { Marker } from 'google-maps-react';
 
 
 function EventDetail(props) {
@@ -133,17 +134,18 @@ function EventDetail(props) {
         </Button>
       </div>
 
-      <div style={{ textAlign: 'center' }}>
-        <Map
+      <div style={{ height: '70vh', width: '70%', marginTop:'20px', display:'flex', justifyContent:'center', alignItems:'center', marginLeft:'auto', marginRight:'auto' }}>
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: enums.GOOGLE_API_KEY }}
           google={props.google}
           zoom={15}
-          style={mapStyles}
+          // style={mapStyles}
           initialCenter={markerPosition}
           center={markerPosition}
           // disableDefaultUI={true}
         >
-          <Marker position={markerPosition} />
-        </Map>
+          {/* <Marker position={markerPosition} /> */}
+        </GoogleMapReact>
       </div>
     </div>
       
@@ -152,6 +154,4 @@ function EventDetail(props) {
   );
 }
 
-export default GoogleApiWrapper({
-  apiKey: enums.GOOGLE_API_KEY,
-})(EventDetail);
+export default EventDetail;
