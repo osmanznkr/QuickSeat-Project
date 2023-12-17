@@ -13,7 +13,6 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import GoogleMapReact from 'google-map-react';
 import moment from 'moment';
 import 'moment/locale/tr'
-import { Marker } from 'google-maps-react';
 
 
 function EventDetail(props) {
